@@ -69,3 +69,5 @@ thought:DockerKata rich$ docker ps -a
 CONTAINER ID        IMAGE                          COMMAND                  CREATED             STATUS                     PORTS               NAMES
 52450ca5b4a9        nginx:alpine                   "nginx -g 'daemon ..."   37 seconds ago      Created                                        docker_katas_nginx
 ```
+
+[Previous](5_delete_image.md) | [Index](README.md) | [Next](7_start_containers.md)

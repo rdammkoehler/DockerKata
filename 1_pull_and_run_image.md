@@ -18,13 +18,13 @@ In this exercise we will pull an image for the NGINX Web Server and run it using
 
 1 Pull a simple image, nginx:alpine
 
-Command:
+**Command:**
 
 ```bash
 docker pull nginx:alpine
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker pull nginx:alpine
@@ -68,3 +68,6 @@ Or [click here](http://localhost:8080)
 4 Stop the running container
 
 Use `Ctrl-C` on the command line where you executed 
+
+[Previous](#) | [Index](README.md) | [Next](2_list_images.md)
+

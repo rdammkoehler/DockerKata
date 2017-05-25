@@ -59,3 +59,5 @@ docker stop docker_katas_nginx
 thought:DockerKata rich$ docker stop docker_katas_nginx
 docker_katas_nginx
 ```
+
+[Previous](6_named_containers.md) | [Index](README.md) | [Next](8_tag_an_image.md)

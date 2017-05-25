@@ -29,3 +29,5 @@ thought:DockerKata rich$ docker images
 REPOSITORY                                   TAG                 IMAGE ID            CREATED             SIZE
 nginx                                        alpine              f00ab1b3ac6d        2 weeks ago         15.5 MB
 ```
+
+[Previous](1_pull_and_run_image.md) | [Index](README.md) | [Next](3_list_containers.md)

@@ -13,6 +13,8 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 5. [Delete Image](5_delete_image.md)
 6. [Named Containers](6_named_containers.md)
 7. [Start Containers](7_start_containers.md)
+8. [Tag and Image](8_tag_an_image.md)
+9. [Delete and Image by Tag](9_delete_image_by_tag.md)
 
 ### By Command
 
