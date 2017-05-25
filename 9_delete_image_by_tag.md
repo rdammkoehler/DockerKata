@@ -41,8 +41,6 @@ nginx                                        mine                f00ab1b3ac6d   
 docker rmi nginx:mine
 ```
 
-> Note: We use the IMAGE ID for the listed image to select which image to delete
-
 **Output:**
 
 ```bash
