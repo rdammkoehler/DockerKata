@@ -61,4 +61,4 @@ docker ps -a
 
 Note that `goofy_jepsen` no longer exists in the listing.
 
-[Previous](3_list_contianers.md) | [Index](README.md) | [Next](5_delete_image.md)
+[Previous](3_list_containers.md) | [Index](README.md) | [Next](5_delete_image.md)
