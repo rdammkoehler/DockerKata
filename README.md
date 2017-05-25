@@ -18,8 +18,12 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 10. [Execute Command In Container](10_exec_in_container.md)
 11. [Change The State of The Container](11_change_container_state.md)
 12. [Commit Changes](12_commit_changes.md)
-13. 
-[Pushing Images]
+13. [Interacting With Containers](13_interacting.md)
+
+
+<!-- Upcomming content
+[Pushing Images] 
+-->
 
 ### By Command
 
