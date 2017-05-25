@@ -9,5 +9,5 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 4. [Delete Container](4_delete_container.md)
 5. [Delete Image](5_delete_image.md)
 6. [Named Containers](6_named_containers.md)
-7. [Detached Containers](7_detached_containers.md)
+7. [Run Detached Containers](7_start_containers.md)
 

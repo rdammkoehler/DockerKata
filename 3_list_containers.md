@@ -20,7 +20,7 @@ In this exercise we will run an image, list running images, stop the image, and 
 
 1 Run Image
 
-> Note: Here we will pass the `-d` option flag to docker, telling it to run the image in a detached mode, more on this topic later.
+> Note: Here we will pass the `-d` option flag to docker, telling it to run the image in a detached mode, [more on this topic later](7_start_containers.md).
 
 Command:
 
@@ -55,7 +55,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 > In the output above, noticed the value in the NAMES value in the right most column. This is an arbitrary name assigned to the running container by the docker command. It is much easier to remember than the hash value. We will use that name to stop the running container in the next step
 
-3 Stop Image
+3 Stop the Container
 
 Command:
 
