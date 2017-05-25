@@ -15,6 +15,11 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 7. [Start Containers](7_start_containers.md)
 8. [Tag and Image](8_tag_an_image.md)
 9. [Delete and Image by Tag](9_delete_image_by_tag.md)
+10. [Execute Command In Container](10_exec_in_container.md)
+11. [Change The State of The Container](11_change_container_state.md)
+12. [Commit Changes](12_commit_changes.md)
+13. 
+[Pushing Images]
 
 ### By Command
 
