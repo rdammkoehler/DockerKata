@@ -1,8 +1,10 @@
-# Run Containers
+# Start Containers
 
 Docker Documentation References:
 
-[]()
+[docker start](https://docs.docker.com/engine/reference/commandline/start/)
+
+[docker stop](https://docs.docker.com/engine/reference/commandline/stop/)
 
 ### Intent
 
@@ -31,7 +33,7 @@ docker_katas_nginx
 
 2 Test the running container
 
-Command (in :
+Command:
 
 ```bash
 open http://localhost:8080
