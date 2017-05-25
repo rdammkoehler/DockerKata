@@ -1,4 +1,4 @@
-# Comming Changes 
+# Commiting Changes 
 
 Docker Documentation References:
 
