@@ -90,4 +90,4 @@ CONTAINER ID        IMAGE                          COMMAND                  CREA
 11c3e639eaa9        nginx:alpine                   "nginx -g 'daemon ..."   2 minutes ago       Exited (0) 30 seconds ago                       determined_jennings
 ```
 
-[Previous](2_list_images.md) | [Index](README.md) | [Next](4_delete_containers.md)
+[Previous](2_list_images.md) | [Index](README.md) | [Next](4_delete_container.md)
