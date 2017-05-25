@@ -18,13 +18,13 @@ In this exercise we will use an existing container and run it in the detached mo
 
 1 Start Container
 
-Command:
+**Command:**
 
 ```bash
 docker start docker_katas_nginx
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker start docker_katas_nginx
@@ -33,25 +33,27 @@ docker_katas_nginx
 
 2 Test the running container
 
-Command:
+**Command:**
 
 ```bash
 open http://localhost:8080
 ```
 
-Output:
+Or [click here](http://localhost:8080)
+
+**Output:**
 
 ![NGINX Screen Shot](screenshots/image_pull_and_run_kata_nginx_verification.png)
 
 3 Stop the Container
 
-Command:
+**Command:**
 
 ```bash
 docker stop docker_katas_nginx
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker stop docker_katas_nginx

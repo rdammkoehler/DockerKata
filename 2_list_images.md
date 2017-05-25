@@ -16,13 +16,13 @@ In this exercise we will list the images on our local machine. We should see one
 
 1 List Images
 
-Command:
+**Command:**
 
 ```bash
 docker images
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker images

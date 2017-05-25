@@ -20,13 +20,13 @@ In this exercise we will pull and image and create a container with a specific n
 
 1 Pull a simple image, nginx:alpine
 
-Command:
+**Command:**
 
 ```bash
 docker pull nginx:alpine
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker pull nginx:alpine
@@ -41,13 +41,13 @@ Status: Downloaded newer image for nginx:alpine
 
 2 Create Named Container
 
-Command:
+**Command:**
 
 ```bash
 docker create --name docker_katas_nginx nginx:alpine
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker create --name docker_katas_nginx nginx:alpine
@@ -56,19 +56,16 @@ thought:DockerKata rich$ docker create --name docker_katas_nginx nginx:alpine
 
 3 List All Containers
 
-Command:
+**Command:**
 
 ```bash
 docker ps -a
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker ps -a
 CONTAINER ID        IMAGE                          COMMAND                  CREATED             STATUS                     PORTS               NAMES
 52450ca5b4a9        nginx:alpine                   "nginx -g 'daemon ..."   37 seconds ago      Created                                        docker_katas_nginx
 ```
-
-
-

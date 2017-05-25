@@ -22,13 +22,13 @@ In this exercise we will run an image, list running images, stop the image, and 
 
 > Note: Here we will pass the `-d` option flag to docker, telling it to run the image in a detached mode, [more on this topic later](7_start_containers.md).
 
-Command:
+**Command:**
 
 ```bash
 docker run -d nginx:alpine
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker run -d nginx:alpine
@@ -39,13 +39,13 @@ thought:DockerKata rich$ docker run -d nginx:alpine
 
 2 List Running Containers
 
-Command:
+**Command:**
 
 ```bash
 docker ps
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker ps
@@ -57,7 +57,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 3 Stop the Container
 
-Command:
+**Command:**
 
 > Note: We will stop the detached container using its name. Alternately you can use the hash value. 
 
@@ -65,7 +65,7 @@ Command:
 docker stop determined_jennings
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker stop determined_jennings
@@ -76,13 +76,13 @@ determined_jennings
 
 Using the `-a` option we can list all containers, running or otherwise. This is helpful if you want to remove a container from your system or otherwise need information about containers that you've run in the past.
 
-Command:
+**Command:**
 
 ```bash
 docker ps -a
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker ps -a

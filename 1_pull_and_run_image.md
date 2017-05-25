@@ -39,13 +39,13 @@ Status: Downloaded newer image for nginx:alpine
 
 2 Run the nginx image
 
-Command:
+**Command:**
 
 ```bash
 docker run nginx:alpine
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker run nginx:alpine
@@ -53,13 +53,15 @@ thought:DockerKata rich$ docker run nginx:alpine
 
 3 Test the running container
 
-Command (in :
+**Command** (in another terminal):
 
 ```bash
 open http://localhost:8080
 ```
 
-Output:
+Or [click here](http://localhost:8080)
+
+**Output:**
 
 ![NGINX Screen Shot](screenshots/image_pull_and_run_kata_nginx_verification.png)
 

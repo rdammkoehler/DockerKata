@@ -18,13 +18,13 @@ In this exercise we will delete the most recent container we created in the prev
 
 1 List Contianers
 
-Command:
+**Command:**
 
 ```bash
 docker ps -a
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker ps -a
@@ -38,13 +38,13 @@ cfbed98f339d        nginx:alpine                   "nginx -g 'daemon ..."   5 mi
 
 3 Delete the container
 
-Command:
+**Command:**
 
 ```bash
 docker rm goofy_jepsen
 ```
 
-Output:
+**Output:**
 
 ```bash
 thought:DockerKata rich$ docker rm goofy_jepsen
@@ -52,6 +52,8 @@ goofy_jepsen
 ```
 
 4 List Containers
+
+**Command:**
 
 ```bash
 docker ps -a
