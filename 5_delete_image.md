@@ -55,4 +55,4 @@ Deleted: sha256:dbb2947ff4baf54251b41474675ec80406f4f39014ba2db264c47f35cd9ce32c
 Deleted: sha256:e154057080f406372ebecadc0bfb5ff8a7982a0d13823bab1be5b86926c6f860
 ```
 
-[Previous](4_delete_image.md) | [Index](README.md) | [Next](6_named_containers.md)
+[Previous](4_delete_container.md) | [Index](README.md) | [Next](6_named_containers.md)
