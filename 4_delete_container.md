@@ -16,7 +16,7 @@ In this exercise we will delete the most recent container we created in the prev
 
 ### Kata Steps
 
-1 List Contianers
+##### List Contianers
 
 **Command:**
 
@@ -32,11 +32,11 @@ CONTAINER ID        IMAGE                          COMMAND                  CREA
 cfbed98f339d        nginx:alpine                   "nginx -g 'daemon ..."   5 minutes ago       Exited (0) 5 minutes ago                        goofy_jepsen
 ```
 
-2 Select and copy the container name (goofy_jespen)
+##### Select and copy the container name (goofy_jespen)
 
 > Because docker generates the name of the container randomly, your container will most likely not be `goofy_jepsen`. Later we will use names to ensure consistency.
 
-3 Delete the container
+##### Delete the container
 
 **Command:**
 
@@ -51,7 +51,7 @@ thought:DockerKata rich$ docker rm goofy_jepsen
 goofy_jepsen
 ```
 
-4 List Containers
+##### List Containers
 
 **Command:**
 

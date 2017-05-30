@@ -28,7 +28,7 @@ In this exercise we will start an existing container, commit that container to c
 
 ### Kata Steps
 
-1 Start the Container
+##### Start the Container
 
 **Command:**
 
@@ -43,7 +43,7 @@ thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-2 Commit the Container
+##### Commit the Container
 
 **Command:**
 
@@ -58,7 +58,7 @@ thought:DockerKata rich$ docker commit --message 'added vim and simple.txt' dock
 sha256:f7d8faf086a6750f2ac5515c92ad66a00b027c844e63f8409d658e7add2258f3
 ```
 
-3 List Images
+##### List Images
 
 **Command:**
 
@@ -77,7 +77,7 @@ nginx                                        alpine              f00ab1b3ac6d   
 
 > Note: The image with REPOSITORY <none> and TAG <none> is the image just created.
 
-4 Stop the current container
+##### Stop the current container
 
 **Command:**
 
@@ -91,7 +91,7 @@ docker stop docker_katas_nginx
 docker_katas_nginx
 ```
 
-5 Run the new image
+##### Run the new image
 
 **Command:**
 
@@ -108,7 +108,7 @@ thought:DockerKata rich$ docker run --name nginx_vim -d f7d8faf086a6
 4b9d7d95acdd213b592d1d49e9f4a85d1022c2e0a8fbb90e852d862c2124a63a
 ```
 
-6 Inspect the file system of the new container
+##### Inspect the file system of the new container
 
 **Command:**
 
@@ -125,7 +125,7 @@ dev         lib         proc        sbin        sys         var
 etc         media       root        simple.txt  tmp
 ```
 
-7 Stop the new container
+##### Stop the new container
 
 **Command:**
 
@@ -140,7 +140,7 @@ thought:DockerKata rich$ docker stop nginx_vim
 nginx_vim
 ```
 
-8 Delete the new container
+##### Delete the new container
 
 **Command:**
 
@@ -155,7 +155,7 @@ thought:DockerKata rich$ docker rm nginx_vim
 nginx_vim
 ```
 
-9 Delete the new image (it was silly anyway)
+##### Delete the new image (it was silly anyway)
 
 **Command:**
 

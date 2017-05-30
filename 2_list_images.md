@@ -14,7 +14,7 @@ In this exercise we will list the images on our local machine. We should see one
 
 ### Kata Steps
 
-1 List Images
+##### List Images
 
 **Command:**
 

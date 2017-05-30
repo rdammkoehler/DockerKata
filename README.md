@@ -13,12 +13,13 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 5. [Delete Image](5_delete_image.md)
 6. [Named Containers](6_named_containers.md)
 7. [Start Containers](7_start_containers.md)
-8. [Tag and Image](8_tag_an_image.md)
+8. [Tag an Image](8_tag_an_image.md)
 9. [Delete and Image by Tag](9_delete_image_by_tag.md)
 10. [Execute Command In Container](10_exec_in_container.md)
 11. [Change The State of The Container](11_change_container_state.md)
 12. [Commit Changes](12_commit_changes.md)
 13. [Interacting With Containers](13_interacting.md)
+14. [Pushing Images](14_pushing_images.md)
 
 
 <!-- Upcomming content

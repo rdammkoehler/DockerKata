@@ -16,7 +16,7 @@ In this exercise we will use an existing container and run it in the detached mo
 
 ### Kata Steps
 
-1 Start Container
+##### Start Container
 
 **Command:**
 
@@ -31,7 +31,7 @@ thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-2 Test the running container
+##### Test the running container
 
 **Command:**
 
@@ -45,7 +45,7 @@ Or [click here](http://localhost:8080)
 
 ![NGINX Screen Shot](screenshots/image_pull_and_run_kata_nginx_verification.png)
 
-3 Stop the Container
+##### Stop the Container
 
 **Command:**
 

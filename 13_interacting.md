@@ -14,7 +14,7 @@ In this exerciese we will start a container and open an interactive shell where 
 
 ### Kata Steps
 
-1 Start the Container
+##### Start the Container
 
 **Command:**
 
@@ -29,7 +29,7 @@ thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-2 Open a Shell on the container
+##### Open a Shell on the container
 
 **Command:**
 
@@ -46,7 +46,7 @@ thought:DockerKata rich$ docker exec -it docker_katas_nginx sh
 
 > Note: Your are now in a shell window on the Container
 
-3 Interact with the Container
+##### Interact with the Container
 
 **Command:**
 
@@ -91,7 +91,7 @@ exit
 thought:DockerKata rich$
 ```
 
-4 Stop the current container
+##### Stop the current container
 
 **Command:**
 
@@ -106,4 +106,4 @@ docker_katas_nginx
 ```
 
 
-[Previous](12_commit_changes.md) | [Index](README.md) | [Next](#)
+[Previous](12_commit_changes.md) | [Index](README.md) | [Next](14_pushing_images.md)

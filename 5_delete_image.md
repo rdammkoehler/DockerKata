@@ -16,7 +16,7 @@ In this exercies we will list the images on in the local registry and then delet
 
 ### Kata Steps
 
-1 List Images
+##### List Images
 
 **Command:**
 
@@ -32,7 +32,7 @@ REPOSITORY                                   TAG                 IMAGE ID       
 nginx                                        alpine              f00ab1b3ac6d        2 weeks ago         15.5 MB
 ```
 
-2 Remove image
+##### Remove image
 
 **Command:**
 

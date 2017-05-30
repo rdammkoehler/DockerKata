@@ -14,7 +14,7 @@ In this exeercise we will start a container and execute the `ps` command on the 
 
 ### Kata Steps
 
-1 Start the Container
+##### Start the Container
 
 **Command:**
 
@@ -29,7 +29,7 @@ thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-2 Execute the `ps` command
+##### Execute the `ps` command
 
 **Command:**
 
@@ -47,7 +47,7 @@ PID   USER     TIME   COMMAND
     8 root       0:00 ps
 ```
 
-3 Stop the Container
+##### Stop the Container
 
 **Command:**
 
