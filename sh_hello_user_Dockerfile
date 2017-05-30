@@ -1,0 +1,6 @@
+FROM alpine:3.6
+MAINTAINER rpd@noradltd.com
+
+ENV DOCKER_USER_NAME Timmy
+
+ENTRYPOINT [ "sh", "-c", "echo $DOCKER_USER_NAME" ]
