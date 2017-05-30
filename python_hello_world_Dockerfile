@@ -1,0 +1,6 @@
+FROM python:alpine
+MAINTAINER rpd@noradltd.com
+
+COPY hello_world.py /
+
+ENTRYPOINT [ "python", "hello_world.py" ]
