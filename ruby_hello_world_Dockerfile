@@ -1,0 +1,6 @@
+FROM ruby:alpine
+MAINTAINER rpd@noradltd.com
+
+COPY hello_world.rb /
+
+ENTRYPOINT [ "ruby", "hello_world.rb" ]

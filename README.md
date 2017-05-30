@@ -21,6 +21,7 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 13. [Interacting With Containers](13_interacting.md)
 14. [Pushing Images](14_pushing_images.md)
 15. [Create An Image for a Python Application](15_simple_python_image.md)
+16. [Create An Image for a Ruby Application](16_simply_ruby_image.md)
 
 
 <!-- Upcomming content

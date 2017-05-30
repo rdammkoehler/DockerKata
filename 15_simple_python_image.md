@@ -2,7 +2,19 @@
 
 Docker Documentation References:
 
-[]()
+[Dockerfile](https://docs.docker.com/engine/reference/builder/)
+
+[docker build](https://docs.docker.com/engine/reference/commandline/build/)
+
+[docker run](https://docs.docker.com/engine/reference/commandline/run/)
+
+[docker images](https://docs.docker.com/engine/reference/commandline/images/)
+
+[docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
+
+Other Documentation References:
+
+[Python](https://www.python.org/)
 
 ### Intent
 
@@ -10,7 +22,7 @@ The purpose of this kata is to familiarize yourself with the process of creating
 
 ### Overivew
 
-TBD
+In this exercise we will create a simple Python application and place it in a Docker Image. We will then run that image. When we are done we will remove the image and its associated containers. 
 
 ### Kata Steps
 
@@ -132,4 +144,4 @@ Deleted: sha256:167b6bbcdc923383d418579e9aa9e91e455aa3f32af440223d4b4b8f797d7b02
 Deleted: sha256:9966dcc31ceb9c1ba920c4fcbf45da6cda2d3fae2157dc017d51998312ac6bd2
 ```
 
-[Previous](14_pushing_images.md) | [Index](README.md) | [Next](#)
+[Previous](14_pushing_images.md) | [Index](README.md) | [Next](16_simply_ruby_image.md)
