@@ -106,17 +106,17 @@ rich
 **Command:**
 
 ```bash
-docker rmi -f dd175670ab16
+docker rmi -f 804eb58d237f
 ```
 
 **Output:**
 
 ```bash
-thought:DockerKata rich$ docker rmi -f dd175670ab16
-Deleted: sha256:dd175670ab1602e0c5efd8325a1b7969b24d4c38a629b5615010bf6c721d0209
-Deleted: sha256:ad7801c15908ecfe9c15d6a5f37d8acd14e726c6222088c2c110cb5d62a3a20c
-Deleted: sha256:a2e52da4f0f75fd2c2f78d202ffeed9bee8ede516fe31ed3af9253490b12dc3e
+thought:DockerKata rich$ docker rmi -f 804eb58d237f
+Deleted: sha256:804eb58d237fb2b1dbe66d548779419825aaff1bd7b1d42c0216ec596569e846
+Deleted: sha256:56d9cb50cc306cd2ce5a130bb99948a51d8261572a336b605a1304b74269ce1e
+Deleted: sha256:dc97dfd78be5133d39a36e9962fbe197e92744c373684a1cbf295ff3afdaec69
 ```
 
 
-[Previous](17_setting_envvars.md) | [Index](README.md) | [Next](#)
+[Previous](17_setting_envvars.md) | [Index](README.md) | [Next](19_publish_network_interfaces.md)

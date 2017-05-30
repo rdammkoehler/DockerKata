@@ -22,12 +22,10 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 14. [Pushing Images](14_pushing_images.md)
 15. [Create An Image for a Python Application](15_simple_python_image.md)
 16. [Create An Image for a Ruby Application](16_simply_ruby_image.md)
-
------
 17. [Setting Environment Variables](17_setting_envvars.md)
 18. [Overriding Environment Variables](18_overriding_envvars.md)
-19. [Exposing Network Interfaces](19_exposing_network_interfaces.md)
-20. [Exporting Volumes](20_exporting_volumes.md)
+19. [Publish Network Interfaces](19_publish_network_interfaces.md)
+20. [Mounting Volumes](20_mounting_volumes.md)
 
 
 <!-- Upcomming content
