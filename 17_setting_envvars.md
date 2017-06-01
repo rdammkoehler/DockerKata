@@ -22,7 +22,7 @@ In this exercise we will create a simple Dockerfile and set an environment varia
 
 ### Kata Steps
 
-##### Create a `Dockerfile`
+#### Create a `Dockerfile`
 
 Use and editor to create a file named sh_hello_user_Dockerfile, or copy the [sh_hello_user_Dockerfile](sh_hello_user_Dockerfile) from this repository.
 
@@ -37,15 +37,15 @@ ENV DOCKER_USER_NAME Timmy
 ENTRYPOINT [ "sh", "-c", "echo $DOCKER_USER_NAME" ]
 ```
 
-##### Build the Image
+#### Build the Image
 
-**Command:**
+**Command**
 
 ```bash
 docker build -f sh_hello_user_Dockerfile .
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker build -f sh_hello_user_Dockerfile .
@@ -67,15 +67,15 @@ Removing intermediate container 9c6bec933243
 Successfully built dd175670ab16
 ```
 
-##### List Images
+#### List Images
 
-**Command:**
+**Command**
 
 ```bash
 docker images
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker images
@@ -85,30 +85,30 @@ REPOSITORY                                   TAG                 IMAGE ID       
 
 > Note: We will use the `IMAGE ID` which will differ from machine to machine, so you must select what is on your computer for the next two steps.
 
-##### Run the Image
+#### Run the Image
 
-**Command:**
+**Command**
 
 ```bash
 docker run dd175670ab16
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker run dd175670ab16
 Timmy
 ```
 
-##### Delete the Image (and related container)
+#### Delete the Image (and related container)
 
-**Command:**
+**Command**
 
 ```bash
 docker rmi -f dd175670ab16
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker rmi -f dd175670ab16

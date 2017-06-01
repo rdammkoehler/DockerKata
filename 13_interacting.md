@@ -14,30 +14,30 @@ In this exerciese we will start a container and open an interactive shell where 
 
 ### Kata Steps
 
-##### Start the Container
+#### Start the Container
 
-**Command:**
+**Command**
 
 ```bash
 docker start docker_katas_nginx
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-##### Open a Shell on the container
+#### Open a Shell on the container
 
-**Command:**
+**Command**
 
 ```bash
 docker exec -it docker_katas_nginx sh
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker exec -it docker_katas_nginx sh
@@ -46,15 +46,15 @@ thought:DockerKata rich$ docker exec -it docker_katas_nginx sh
 
 > Note: Your are now in a shell window on the Container
 
-##### Interact with the Container
+#### Interact with the Container
 
-**Command:**
+**Command**
 
 ```sh
 ps -ef
 ```
 
-**Output:**
+**Output**
 
 ```sh
 / # ps -ef
@@ -65,41 +65,41 @@ PID   USER     TIME   COMMAND
    13 root       0:00 ps -ef
 ```
 
-**Command:**
+**Command**
 
 ```sh
 hostname
 ```
 
-**Output:**
+**Output**
 
 ```sh
 / # hostname
 52450ca5b4a9
 ```
 
-**Command:**
+**Command**
 
 ```sh
 exit
 ```
 
-**Output:**
+**Output**
 
 ```bash
 / # exit
 thought:DockerKata rich$
 ```
 
-##### Stop the current container
+#### Stop the current container
 
-**Command:**
+**Command**
 
 ```bash
 docker stop docker_katas_nginx
 ```
 
-**Output:**
+**Output**
 
 ```bash
 docker_katas_nginx

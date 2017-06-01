@@ -16,15 +16,15 @@ In this exercies we will list the images on in the local registry and then delet
 
 ### Kata Steps
 
-##### List Images
+#### List Images
 
-**Command:**
+**Command**
 
 ```bash
 docker images
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker images
@@ -32,9 +32,9 @@ REPOSITORY                                   TAG                 IMAGE ID       
 nginx                                        alpine              f00ab1b3ac6d        2 weeks ago         15.5 MB
 ```
 
-##### Remove image
+#### Remove image
 
-**Command:**
+**Command**
 
 ```bash
 docker rmi f00ab1b3ac6d
@@ -42,7 +42,7 @@ docker rmi f00ab1b3ac6d
 
 > Note: We use the IMAGE ID for the listed image to select which image to delete
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker rmi f00ab1b3ac6d

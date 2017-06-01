@@ -16,15 +16,15 @@ In this exercise we will pull an image for the NGINX Web Server and run it using
 
 ### Kata Steps
 
-##### Pull a simple image, nginx:alpine
+#### Pull a simple image, nginx:alpine
 
-**Command:**
+**Command**
 
 ```bash
 docker pull nginx:alpine
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker pull nginx:alpine
@@ -37,21 +37,21 @@ Digest: sha256:33eb1ed1e802d4f71e52421f56af028cdf12bb3bfff5affeaf5bf0e328ffa1bc
 Status: Downloaded newer image for nginx:alpine
 ```
 
-##### Run the nginx image
+#### Run the nginx image
 
-**Command:**
+**Command**
 
 ```bash
 docker run nginx:alpine
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker run nginx:alpine
 ```
 
-##### Test the running container
+#### Test the running container
 
 **Command** (in another terminal):
 
@@ -61,11 +61,11 @@ open http://localhost:8080
 
 Or [click here](http://localhost:8080)
 
-**Output:**
+**Output**
 
 ![NGINX Screen Shot](screenshots/image_pull_and_run_kata_nginx_verification.png)
 
-##### Stop the running container
+#### Stop the running container
 
 Use `Ctrl-C` on the command line where you executed 
 

@@ -14,15 +14,15 @@ In this exercise we will list the images on our local machine. We should see one
 
 ### Kata Steps
 
-##### List Images
+#### List Images
 
-**Command:**
+**Command**
 
 ```bash
 docker images
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker images

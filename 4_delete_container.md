@@ -16,15 +16,15 @@ In this exercise we will delete the most recent container we created in the prev
 
 ### Kata Steps
 
-##### List Contianers
+#### List Contianers
 
-**Command:**
+**Command**
 
 ```bash
 docker ps -a
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker ps -a
@@ -32,28 +32,28 @@ CONTAINER ID        IMAGE                          COMMAND                  CREA
 cfbed98f339d        nginx:alpine                   "nginx -g 'daemon ..."   5 minutes ago       Exited (0) 5 minutes ago                        goofy_jepsen
 ```
 
-##### Select and copy the container name (goofy_jespen)
+#### Select and copy the container name (goofy_jespen)
 
 > Because docker generates the name of the container randomly, your container will most likely not be `goofy_jepsen`. Later we will use names to ensure consistency.
 
-##### Delete the container
+#### Delete the container
 
-**Command:**
+**Command**
 
 ```bash
 docker rm goofy_jepsen
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker rm goofy_jepsen
 goofy_jepsen
 ```
 
-##### List Containers
+#### List Containers
 
-**Command:**
+**Command**
 
 ```bash
 docker ps -a

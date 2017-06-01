@@ -16,15 +16,15 @@ In this exercies we will list the images on in the local registry and then delet
 
 ### Kata Steps
 
-##### List Images
+#### List Images
 
-**Command:**
+**Command**
 
 ```bash
 docker images
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker images
@@ -33,30 +33,30 @@ nginx                                        alpine              f00ab1b3ac6d   
 nginx                                        mine                f00ab1b3ac6d        2 weeks ago         15.5 MB
 ```
 
-##### Remove image
+#### Remove image
 
-**Command:**
+**Command**
 
 ```bash
 docker rmi nginx:mine
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker rmi nginx:mine
 Untagged: nginx:mine
 ```
 
-##### List Images
+#### List Images
 
-**Command:**
+**Command**
 
 ```bash
 docker images
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker images

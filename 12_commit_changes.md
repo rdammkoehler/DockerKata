@@ -28,45 +28,45 @@ In this exercise we will start an existing container, commit that container to c
 
 ### Kata Steps
 
-##### Start the Container
+#### Start the Container
 
-**Command:**
+**Command**
 
 ```bash
 docker start docker_katas_nginx
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-##### Commit the Container
+#### Commit the Container
 
-**Command:**
+**Command**
 
 ```bash
 docker commit --message 'added vim and simple.txt` docker_katas_nginx 
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker commit --message 'added vim and simple.txt' docker_katas_nginx
 sha256:f7d8faf086a6750f2ac5515c92ad66a00b027c844e63f8409d658e7add2258f3
 ```
 
-##### List Images
+#### List Images
 
-**Command:**
+**Command**
 
 ```bash
 docker images
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker images
@@ -77,23 +77,23 @@ nginx                                        alpine              f00ab1b3ac6d   
 
 > Note: The image with REPOSITORY <none> and TAG <none> is the image just created.
 
-##### Stop the current container
+#### Stop the current container
 
-**Command:**
+**Command**
 
 ```bash
 docker stop docker_katas_nginx
 ```
 
-**Output:**
+**Output**
 
 ```bash
 docker_katas_nginx
 ```
 
-##### Run the new image
+#### Run the new image
 
-**Command:**
+**Command**
 
 ```bash
 docker run --name nginx_vim -d f7d8faf086a6
@@ -101,22 +101,22 @@ docker run --name nginx_vim -d f7d8faf086a6
 
 > Note: We're using the IMAGE ID to specify what image we want to run
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker run --name nginx_vim -d f7d8faf086a6
 4b9d7d95acdd213b592d1d49e9f4a85d1022c2e0a8fbb90e852d862c2124a63a
 ```
 
-##### Inspect the file system of the new container
+#### Inspect the file system of the new container
 
-**Command:**
+**Command**
 
 ```bash
 docker exec -it nginx_vim ls
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker exec -it nginx_vim ls
@@ -125,39 +125,39 @@ dev         lib         proc        sbin        sys         var
 etc         media       root        simple.txt  tmp
 ```
 
-##### Stop the new container
+#### Stop the new container
 
-**Command:**
+**Command**
 
 ```bash
 docker stop nginx_vim
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker stop nginx_vim
 nginx_vim
 ```
 
-##### Delete the new container
+#### Delete the new container
 
-**Command:**
+**Command**
 
 ```bash
 docker rm nginx_vim
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker rm nginx_vim
 nginx_vim
 ```
 
-##### Delete the new image (it was silly anyway)
+#### Delete the new image (it was silly anyway)
 
-**Command:**
+**Command**
 
 ```bash
 docker rmi f7d8faf086a6

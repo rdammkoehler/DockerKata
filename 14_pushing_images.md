@@ -22,9 +22,9 @@ In this exercise we will login, tag, push an image to the Docker Hub repository,
 
 ### Kata Steps
 
-##### Login
+#### Login
 
-**Command:**
+**Command**
 
 ```bash
 docker login --username rdammkoehler --password *******************
@@ -32,16 +32,16 @@ docker login --username rdammkoehler --password *******************
 
 > Note: By default the login command logs you into `https://index.docker.io/v1/` however you can specify an alternate server in this location. The configuration of available servers (servers you have used before) is stored at `$HOME/.docker/config.json`
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker login --username rdammkoehler --password *******************
 Login Succeeded
 ```
 
-##### Tag the Image
+#### Tag the Image
 
-**Command:**
+**Command**
 
 ```bash
 docker tag nginx:alpine rdammkoehler/nginx:docker_kata
@@ -49,20 +49,20 @@ docker tag nginx:alpine rdammkoehler/nginx:docker_kata
 
 > Note: the use of mine as a tag is a totally arbitrary value for demonstration purposes
 
-**Output:**
+**Output**
 ```bash
 thought:DockerKata rich$ docker tag nginx:alpine rdammkoehler/nginx:docker_kata
 ```
 
-##### Push an Image
+#### Push an Image
 
-**Command:**
+**Command**
 
 ```bash
 docker push rdammkoehler/nginx:docker_kata
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker push rdammkoehler/nginx:docker_kata
@@ -74,15 +74,15 @@ e154057080f4: Mounted from library/nginx
 docker_kata: digest: sha256:33eb1ed1e802d4f71e52421f56af028cdf12bb3bfff5affeaf5bf0e328ffa1bc size: 1153
 ```
 
-##### List Images
+#### List Images
 
-**Command:**
+**Command**
 
 ```bash
 docker images
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker images

@@ -26,7 +26,7 @@ In this exercise we will create a simple Python application and place it in a Do
 
 ### Kata Steps
 
-##### Create a Python Application
+#### Create a Python Application
 
 **Command**:
 
@@ -38,22 +38,22 @@ The file should contain the following code
 print('Hello World')
 ```
 
-##### Test the application
+#### Test the application
 
-**Command:**
+**Command**
 
 ```bash
 python hello_world.py
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ python hello_world.py
 Hello World
 ```
 
-##### Create a `Dockerfile`
+#### Create a `Dockerfile`
 
 Use an editor to create a file name python_hello_world_Dockerfile, or copy the [python_hello_world_Dockerfile](python_hello_world_Dockerfile) from this repository.
 
@@ -68,15 +68,15 @@ COPY hello_world.py /
 ENTRYPOINT [ "python", "hello_world.py" ]
 ```
 
-##### Build the Image
+#### Build the Image
 
-**Command:**
+**Command**
 
 ```bash
 docker build -f python_hello_world_Dockerfile .
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker build -f python_hello_world_Dockerfile .
@@ -96,15 +96,15 @@ Removing intermediate container 1159a6589c4f
 Successfully built c5c27efb5127
 ```
 
-##### List Images
+#### List Images
 
-**Command:**
+**Command**
 
 ```bash
 docker images
 ```
 
-**Output:**
+**Output**
 
 ```bash
 REPOSITORY                                   TAG                 IMAGE ID            CREATED             SIZE
@@ -113,30 +113,30 @@ REPOSITORY                                   TAG                 IMAGE ID       
 
 > Note: We will use the `IMAGE ID` which will differ from machine to machine, so you must select what is on your computer for the next two steps.
 
-##### Run the Image
+#### Run the Image
 
-**Command:**
+**Command**
 
 ```bash
 docker run 167b6bbcdc92
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker run 167b6bbcdc92
 Hello World
 ```
 
-##### Delete the Image (and related container)
+#### Delete the Image (and related container)
 
-**Command:**
+**Command**
 
 ```bash
 docker rmi -f 167b6bbcdc92
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker rmi -f 167b6bbcdc92

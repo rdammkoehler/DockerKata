@@ -14,7 +14,7 @@ In this exercise we will run a simple [NGINX](http://nginx.org/) image, publish 
 
 ### Kata Steps
 
-**Command:**
+**Command**
 
 ```bash
 docker run --detach --publish 8080:80 --volume html:/usr/share/nginx/html:ro nginx:stable-alpine
@@ -22,14 +22,14 @@ docker run --detach --publish 8080:80 --volume html:/usr/share/nginx/html:ro ngi
 
 > Here, --detach causes the container to run as a daemon and --publish maps localhost port 8080 to the containers port 80. --volume binds the disk location `/usr/share/nginx/html` to our local folder `html`. The :ro at the end makes the binding read-only.
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker run --detach --publish 8080:80 --volume `pwd`/html:/usr/share/nginx/html:ro nginx:stable-alpine
 12eb58d7778e5b561f912d5f42d0240b3ad82d5f7d384c57c7984b74d70f7e33
 ```
 
-##### Test the running container
+#### Test the running container
 
 **Command** (in another terminal):
 
@@ -41,7 +41,7 @@ Or [click here](http://localhost:8080/docker_kata.html)
 
 ![NGINX Screen Shot](screenshots/image_mounting_volumes_kata_nginx_verification.png)
 
-##### Stop the running container
+#### Stop the running container
 
 **Command**
 

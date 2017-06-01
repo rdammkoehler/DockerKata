@@ -18,17 +18,17 @@ In this exercise we will run an image, list running images, stop the image, and 
 
 ### Kata Steps
 
-##### Run Image
+#### Run Image
 
 > Note: Here we will pass the `-d` option flag to docker, telling it to run the image in a detached mode, [more on this topic later](7_start_containers.md).
 
-**Command:**
+**Command**
 
 ```bash
 docker run -d nginx:alpine
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker run -d nginx:alpine
@@ -37,15 +37,15 @@ thought:DockerKata rich$ docker run -d nginx:alpine
 
 > In the output above, the large hash represents the running container's identity.
 
-##### List Running Containers
+#### List Running Containers
 
-**Command:**
+**Command**
 
 ```bash
 docker ps
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker ps
@@ -55,9 +55,9 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 > In the output above, noticed the value in the NAMES value in the right most column. This is an arbitrary name assigned to the running container by the docker command. It is much easier to remember than the hash value. We will use that name to stop the running container in the next step
 
-##### Stop the Container
+#### Stop the Container
 
-**Command:**
+**Command**
 
 > Note: We will stop the detached container using its name. Alternately you can use the hash value. 
 
@@ -65,24 +65,24 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 docker stop determined_jennings
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker stop determined_jennings
 determined_jennings
 ```
 
-##### List All Containers
+#### List All Containers
 
 Using the `-a` option we can list all containers, running or otherwise. This is helpful if you want to remove a container from your system or otherwise need information about containers that you've run in the past.
 
-**Command:**
+**Command**
 
 ```bash
 docker ps -a
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker ps -a

@@ -24,32 +24,32 @@ In this exercise we will start a container, install the `vim` editor, create a d
 
 ### Kata Steps
 
-##### Start the Container
+#### Start the Container
 
-**Command:**
+**Command**
 
 ```bash
 docker start docker_katas_nginx
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-##### Execute the `apk update` command
+#### Execute the `apk update` command
 
 > Note: This updates the images list of available packages to install
 
-**Command:**
+**Command**
 
 ```bash
 docker exec docker_katas_nginx apk update
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker exec docker_katas_nginx apk update
@@ -60,17 +60,17 @@ v3.5.2-81-gf4d50b1370 [http://dl-cdn.alpinelinux.org/alpine/v3.5/community]
 OK: 7962 distinct packages available
 ```
 
-##### Execute the `apk add vim` command
+#### Execute the `apk add vim` command
 
 > Note: This installs vim on the running container
 
-**Command:**
+**Command**
 
 ```bash
 docker exec docker_katas_nginx apk add vim
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker exec docker_katas_nginx apk add vim
@@ -83,9 +83,9 @@ Executing busybox-1.25.1-r0.trigger
 OK: 45 MiB in 31 packages
 ```
 
-##### Use `vim` on the container
+#### Use `vim` on the container
 
-**Command:**
+**Command**
 
 ```bash
 docker exec -it docker_katas_nginx vim
@@ -93,21 +93,21 @@ docker exec -it docker_katas_nginx vim
 
 > Note: We will disucss the -it option on exec in a later step
 
-**Output:**
+**Output**
 
 * You should find yourself in a vim session. 
 * Insert some text and save the file using `<ESC> :w simple.txt`
 * Then exit `vim` using `<ESC> :q`
 
-##### List files on the container to see the document you created in the prevoius step
+#### List files on the container to see the document you created in the prevoius step
 
-**Command:**
+**Command**
 
 ```bash
 docker exec docker_katas_nginx ls
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker exec -it docker_katas_nginx ls
@@ -116,45 +116,45 @@ dev         lib         proc        sbin        sys         var
 etc         media       root        simple.txt  tmp
 ```
 
-##### Stop the Container
+#### Stop the Container
 
-**Command:**
+**Command**
 
 ```bash
 docker stop docker_katas_nginx
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker stop docker_katas_nginx
 docker_katas_nginx
 ```
 
-##### Restart the Container
+#### Restart the Container
 
-**Command:**
+**Command**
 
 ```bash
 docker start docker_katas_nginx
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-##### List files on the container to see the document you created in the prevoius step
+#### List files on the container to see the document you created in the prevoius step
 
-**Command:**
+**Command**
 
 ```bash
 docker exec docker_katas_nginx ls
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker exec -it docker_katas_nginx ls
@@ -165,15 +165,15 @@ etc         media       root        simple.txt  tmp
 
 > Note: that your file persisted in the conainer between stops and starts, however the image used to create this container does not contain the changes (installation of vim and the simple.txt file), so additional containers created from that image will not have these things. In the next kata we will demonstrate how to create an image from a container.
 
-##### Stop the Container
+#### Stop the Container
 
-**Command:**
+**Command**
 
 ```bash
 docker stop docker_katas_nginx
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker stop docker_katas_nginx

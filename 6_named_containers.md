@@ -18,15 +18,15 @@ In this exercise we will pull and image and create a container with a specific n
 
 ### Kata Steps
 
-##### Pull a simple image, nginx:alpine
+#### Pull a simple image, nginx:alpine
 
-**Command:**
+**Command**
 
 ```bash
 docker pull nginx:alpine
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker pull nginx:alpine
@@ -39,30 +39,30 @@ Digest: sha256:33eb1ed1e802d4f71e52421f56af028cdf12bb3bfff5affeaf5bf0e328ffa1bc
 Status: Downloaded newer image for nginx:alpine
 ```
 
-##### Create Named Container
+#### Create Named Container
 
-**Command:**
+**Command**
 
 ```bash
 docker create --name docker_katas_nginx nginx:alpine
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker create --name docker_katas_nginx nginx:alpine
 52450ca5b4a9926bb18594fac1c6677fe50c99af995d9720ace45b81dd88bc0e
 ```
 
-##### List All Containers
+#### List All Containers
 
-**Command:**
+**Command**
 
 ```bash
 docker ps -a
 ```
 
-**Output:**
+**Output**
 
 ```bash
 thought:DockerKata rich$ docker ps -a
