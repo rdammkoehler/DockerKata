@@ -19,17 +19,17 @@ Other Documentation:
 [nc](http://man.openbsd.org/nc)
 
 
-##Intent
+## Intent
 
 The purpose of this kata is to familiarize yourself with the process of exposing a network interface of a docker image.
 
-##Overview
+## Overview
 
 In this exercise we will create a Dockerfile and expose a network port in the definition. We will add a service to serve data from that port. We will then build the docker image and run it. Finally we will test that our network service is operating as expected. We will then stop the Container and remove the image from our repository.
 
-##Kata Steps
+## Kata Steps
 
-###Create a `Dockerfile`
+### Create a `Dockerfile`
 
 Use and editor to create a file named sh_qotd_Dockerfile, or copy the [sh_qotd_Dockerfile](sh_qotd_Dockerfile) from this repository.
 
@@ -47,7 +47,7 @@ EXPOSE 17
 ENTRYPOINT [ "nc", "-lk", "-p", "17", "-e", "fortune" ]
 ```
 
-###Build the Image
+### Build the Image
 
 **Command**
 
@@ -90,7 +90,7 @@ Removing intermediate container c1d7d16760e9
 Successfully built bd9a638a435f
 ```
 
-###Run the Image
+### Run the Image
 
 **Command**
 
@@ -105,7 +105,7 @@ thought:DockerKata rich$ docker run -p 17:17 -d qotd:latest
 899c09320554ed310815f784bc47b23e96c3578f228c5b6699c3e78c5e96a57c
 ```
 
-###Test the Container
+### Test the Container
 
 **Command**
 
@@ -122,7 +122,7 @@ it is time to reform.
                 -- Mark Twain
 ```
 
-###List Running Containers
+### List Running Containers
 
 **Command**
 
@@ -138,7 +138,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 6156436ef41d        qotd:latest         "nc -lk -p 17 -e f..."   12 seconds ago      Up 11 seconds       0.0.0.0:17->17/tcp   happy_stallman
 ```
 
-###Stop the Container
+### Stop the Container
 
 **Command**
 
@@ -153,7 +153,7 @@ thought:DockerKata rich$ docker stop happy_stallman
 happy_stallman
 ```
 
-###Remove the image
+### Remove the image
 
 **Command**
 

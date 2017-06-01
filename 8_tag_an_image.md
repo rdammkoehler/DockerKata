@@ -8,17 +8,17 @@ Docker Documentation References:
 
 [docker images](https://docs.docker.com/engine/reference/commandline/images/)
 
-##Intent
+## Intent
 
 The purpose of this kata is to familarize yourself with the process of tagging an image.
 
-##Overview
+## Overview
 
 In this exercise we will pull and image for the NGINX Web Server and add a custom tag.
 
-##Kata Steps
+## Kata Steps
 
-###Pull a simple image, nginx:alpine
+### Pull a simple image, nginx:alpine
 
 **Command**
 
@@ -39,7 +39,7 @@ Digest: sha256:33eb1ed1e802d4f71e52421f56af028cdf12bb3bfff5affeaf5bf0e328ffa1bc
 Status: Downloaded newer image for nginx:alpine
 ```
 
-###Tag the Image
+### Tag the Image
 
 **Command**
 
@@ -49,7 +49,7 @@ docker tag nginx:alpine nginx:mine
 
 > Note: the use of mine as a tag is a totally arbitrary value for demonstration purposes
 
-###Inspect your Images
+### Inspect your Images
 
 **Command**
 

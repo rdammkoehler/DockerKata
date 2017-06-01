@@ -6,17 +6,17 @@ Docker Documentation References:
 
 [docker ps](https://docs.docker.com/engine/reference/commandline/ps/)
 
-##Intent
+## Intent
 
 The purpose of this kata is to familarize yourself with the process of removing a container from your local docker installation.
 
-##Overview
+## Overview
 
 In this exercise we will delete the most recent container we created in the previous exercises.
 
-##Kata Steps
+## Kata Steps
 
-###List Contianers
+### List Contianers
 
 **Command**
 
@@ -32,11 +32,11 @@ CONTAINER ID        IMAGE                          COMMAND                  CREA
 cfbed98f339d        nginx:alpine                   "nginx -g 'daemon ..."   5 minutes ago       Exited (0) 5 minutes ago                        goofy_jepsen
 ```
 
-###Select and copy the container name (goofy_jespen)
+### Select and copy the container name (goofy_jespen)
 
 > Because docker generates the name of the container randomly, your container will most likely not be `goofy_jepsen`. Later we will use names to ensure consistency.
 
-###Delete the container
+### Delete the container
 
 **Command**
 
@@ -51,7 +51,7 @@ thought:DockerKata rich$ docker rm goofy_jepsen
 goofy_jepsen
 ```
 
-###List Containers
+### List Containers
 
 **Command**
 

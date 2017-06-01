@@ -12,17 +12,17 @@ Docker Documentation References:
 
 [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
 
-##Intent
+## Intent
 
 The purpose of this kata is to familiarize yourself with the process of setting an environment variable within the Dockerfile.
 
-##Overview
+## Overview
 
 In this exercise we will create a simple Dockerfile and set an environment variable with will impact the output of the application. We will then delete the image.
 
-##Kata Steps
+## Kata Steps
 
-###Create a `Dockerfile`
+### Create a `Dockerfile`
 
 Use and editor to create a file named sh_hello_user_Dockerfile, or copy the [sh_hello_user_Dockerfile](sh_hello_user_Dockerfile) from this repository.
 
@@ -37,7 +37,7 @@ ENV DOCKER_USER_NAME Timmy
 ENTRYPOINT [ "sh", "-c", "echo $DOCKER_USER_NAME" ]
 ```
 
-###Build the Image
+### Build the Image
 
 **Command**
 
@@ -67,7 +67,7 @@ Removing intermediate container 9c6bec933243
 Successfully built dd175670ab16
 ```
 
-###List Images
+### List Images
 
 **Command**
 
@@ -85,7 +85,7 @@ REPOSITORY                                   TAG                 IMAGE ID       
 
 > Note: We will use the `IMAGE ID` which will differ from machine to machine, so you must select what is on your computer for the next two steps.
 
-###Run the Image
+### Run the Image
 
 **Command**
 
@@ -100,7 +100,7 @@ thought:DockerKata rich$ docker run dd175670ab16
 Timmy
 ```
 
-###Delete the Image (and related container)
+### Delete the Image (and related container)
 
 **Command**
 

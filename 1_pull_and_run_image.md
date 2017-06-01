@@ -6,17 +6,17 @@ Docker Documentation References:
 
 [docker run](https://docs.docker.com/engine/reference/commandline/run/)
 
-##Intent
+## Intent
 
 The purpose of this kata is to familarize yourself with the process of pulling an image from a repository and running it.
 
-##Overview
+## Overview
 
 In this exercise we will pull an image for the NGINX Web Server and run it using only defaults. Later we will use this image to demostrate other features of docker.
 
-##Kata Steps
+## Kata Steps
 
-###Pull a simple image, nginx:alpine
+### Pull a simple image, nginx:alpine
 
 **Command**
 
@@ -37,7 +37,7 @@ Digest: sha256:33eb1ed1e802d4f71e52421f56af028cdf12bb3bfff5affeaf5bf0e328ffa1bc
 Status: Downloaded newer image for nginx:alpine
 ```
 
-###Run the nginx image
+### Run the nginx image
 
 **Command**
 
@@ -51,7 +51,7 @@ docker run nginx:alpine
 thought:DockerKata rich$ docker run nginx:alpine
 ```
 
-###Test the running container
+### Test the running container
 
 **Command** (in another terminal):
 
@@ -65,7 +65,7 @@ Or [click here](http://localhost:8080)
 
 ![NGINX Screen Shot](screenshots/image_pull_and_run_kata_nginx_verification.png)
 
-###Stop the running container
+### Stop the running container
 
 Use `Ctrl-C` on the command line where you executed 
 

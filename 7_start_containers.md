@@ -6,17 +6,17 @@ Docker Documentation References:
 
 [docker stop](https://docs.docker.com/engine/reference/commandline/stop/)
 
-##Intent
+## Intent
 
 The purpose of this kata is to familarize yourself with the process of running a container.
 
-##Overview
+## Overview
 
 In this exercise we will use an existing container and run it in the detached mode, we will then stop the container
 
-##Kata Steps
+## Kata Steps
 
-###Start Container
+### Start Container
 
 **Command**
 
@@ -31,7 +31,7 @@ thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-###Test the running container
+### Test the running container
 
 **Command**
 
@@ -45,7 +45,7 @@ Or [click here](http://localhost:8080)
 
 ![NGINX Screen Shot](screenshots/image_pull_and_run_kata_nginx_verification.png)
 
-###Stop the Container
+### Stop the Container
 
 **Command**
 

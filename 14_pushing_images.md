@@ -10,19 +10,19 @@ Docker Documentation References:
 
 [docker images](https://docs.docker.com/engine/reference/commandline/images/)
 
-##Intent
+## Intent
 
 The purpose of this kata is to familiarize yourself with the process of pushing a Docker Image to a shared repository (Docker HUB).
 
-##Overview
+## Overview
 
 In this exercise we will login, tag, push an image to the Docker Hub repository, and then list out images. 
 
 > Please note that the image you push here cannot be deleted via the CLI from the remote repository, you will need to use the tools provided by the repository to remove the image. Also note, [Azure's Container Registry](https://azure.microsoft.com/en-us/services/container-registry/) does not support delete, so if you push an image there you are stuck with it.
 
-##Kata Steps
+## Kata Steps
 
-###Login
+### Login
 
 **Command**
 
@@ -39,7 +39,7 @@ thought:DockerKata rich$ docker login --username rdammkoehler --password *******
 Login Succeeded
 ```
 
-###Tag the Image
+### Tag the Image
 
 **Command**
 
@@ -54,7 +54,7 @@ docker tag nginx:alpine rdammkoehler/nginx:docker_kata
 thought:DockerKata rich$ docker tag nginx:alpine rdammkoehler/nginx:docker_kata
 ```
 
-###Push an Image
+### Push an Image
 
 **Command**
 
@@ -74,7 +74,7 @@ e154057080f4: Mounted from library/nginx
 docker_kata: digest: sha256:33eb1ed1e802d4f71e52421f56af028cdf12bb3bfff5affeaf5bf0e328ffa1bc size: 1153
 ```
 
-###List Images
+### List Images
 
 **Command**
 

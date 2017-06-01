@@ -4,7 +4,7 @@ Some [katas](https://en.wikipedia.org/wiki/Kata) for using [docker](https://www.
 The intent here is to create a training aid for new and forgetful Docker users. We've mostly just pulled these together from around the internet, out of books, or made them up. If you see something missing and you'd like to contribute, please feel free to create a [Pull Request](https://help.github.com/articles/creating-a-pull-request/) on this repo.
 
 
-##Recommended Order For Learning
+## Recommended Order For Learning
 
 1. [Pull and Run an Image](1_pull_and_run_image.md)
 2. [List Images](2_list_images.md)
@@ -40,6 +40,6 @@ https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-con
 [Remove all Exited Containers] docker rm $(docker ps -a -f status=exited -q)
 -->
 
-##By Command
+## By Command
 
 <TODO>

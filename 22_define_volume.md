@@ -12,17 +12,17 @@ Docker Documentation References:
 
 [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
 
-##Intent
+## Intent
 
 The purpose of this kata is to familiarize yourself with the process of creating a volume mount point in a docker image. 
 
-##Overview
+## Overview
 
 In this exercise we will create a docker image that writes to a host volume when it is run. The command simply dumps the output of the ps command into a file. When we run the image the container will mount a local volume to capture the output of the command. We will then remove the output, the container(s), the image, and the docker volume.
 
-##Kata Steps
+## Kata Steps
 
-###Create a `Dockerfile`
+### Create a `Dockerfile`
 
 Use and editor to create a file named sh_ps_out_Dockerfile, or copy the [sh_ps_out_Dockerfile](sh_ps_out_Dockerfile) from this repository.
 
@@ -37,7 +37,7 @@ VOLUME /docker_kata_vol
 ENTRYPOINT mkdir -p /docker_kata_vol && /bin/ps -ef > /docker_kata_vol/ps.out
 ```
 
-###Build the Image
+### Build the Image
 
 **Command**
 
@@ -67,7 +67,7 @@ Removing intermediate container 3a65d9a82abb
 Successfully built 4a4aeb757b9a
 ```
 
-###Test the container
+### Test the container
 
 **Command**
 
@@ -87,7 +87,7 @@ PID   USER     TIME   COMMAND
     8 root       0:00 /bin/ps -ef
 ```
 
-###Remove the output
+### Remove the output
 
 **Command**
 
@@ -95,7 +95,7 @@ PID   USER     TIME   COMMAND
 rm -Rf test
 ```
 
-###Remove the image
+### Remove the image
 
 **Command**
 
@@ -112,7 +112,7 @@ Deleted: sha256:4a4aeb757b9af7cdd07f561e2a9dbc429aaf10c22626ba45367b7363b5ad712c
 Deleted: sha256:90e6b25914e3c0fd89fe446b0cad43a398e7b33cc4b5d8c53782450e50d0e262
 Deleted: sha256:b2e7f794afb7995540168a50371e21513ba8900e7edb94bf4319475d83cff99a
 ```
-###Remove exited containers
+### Remove exited containers
 
 **Command**
 
@@ -140,7 +140,7 @@ ce1554e80f95
 c2f23ac73644
 ```
 
-###Remove the docker volume
+### Remove the docker volume
 
 **Command**
 
