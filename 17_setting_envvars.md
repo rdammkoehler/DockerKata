@@ -117,4 +117,4 @@ Deleted: sha256:ad7801c15908ecfe9c15d6a5f37d8acd14e726c6222088c2c110cb5d62a3a20c
 Deleted: sha256:a2e52da4f0f75fd2c2f78d202ffeed9bee8ede516fe31ed3af9253490b12dc3e
 ```
 
-[Previous](16_simply_ruby_image.md) | [Index](README.md) | [Next](18_overriding_envvars.md)
+[Previous](16_simple_ruby_image.md) | [Index](README.md) | [Next](18_overriding_envvars.md)

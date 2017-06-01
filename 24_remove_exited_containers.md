@@ -2,9 +2,9 @@
 
 Docker Documentation References:
 
-[docker rmi](https://docs.docker.com/engine/reference/commandline/rm/)
+[docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
 
-[docker images](https://docs.docker.com/engine/reference/commandline/ps/)
+[docker ps](https://docs.docker.com/engine/reference/commandline/ps/)
 
 Other documentation:
 
@@ -18,7 +18,7 @@ The purpose of this kata is to familiarize yourself with the process of removing
 
 ## Overview
 
-
+In this exercise we will list all of the exited containers on our system, then we will delete them, and relist the exited containers. Note that this action is not recoverable, don't execute this kata unless your ok with loosing your containers.
 
 ## Kata Steps
 
@@ -75,4 +75,4 @@ thought:DockerKata rich$ docker ps -a -f status=exited
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 ```
 
-[Previous](23_bypass_entrypoint.md) | [Index](README.md) | [Next](#)
+[Previous](23_bypass_entrypoint.md) | [Index](README.md) | [Next](25_remove_dangling_images.md)

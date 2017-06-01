@@ -42,13 +42,13 @@ Status: Downloaded newer image for nginx:alpine
 **Command**
 
 ```bash
-docker run nginx:alpine
+docker run -p 8080:80 nginx:alpine
 ```
 
 **Output**
 
 ```bash
-thought:DockerKata rich$ docker run nginx:alpine
+thought:DockerKata rich$ docker run -p 8080:80 nginx:alpine
 ```
 
 ### Test the running container

@@ -144,4 +144,4 @@ Deleted: sha256:167b6bbcdc923383d418579e9aa9e91e455aa3f32af440223d4b4b8f797d7b02
 Deleted: sha256:9966dcc31ceb9c1ba920c4fcbf45da6cda2d3fae2157dc017d51998312ac6bd2
 ```
 
-[Previous](14_pushing_images.md) | [Index](README.md) | [Next](16_simply_ruby_image.md)
+[Previous](14_pushing_images.md) | [Index](README.md) | [Next](16_simple_ruby_image.md)

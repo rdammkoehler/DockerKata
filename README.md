@@ -21,7 +21,7 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 13. [Interacting With Containers](13_interacting.md)
 14. [Pushing Images](14_pushing_images.md)
 15. [Create An Image for a Python Application](15_simple_python_image.md)
-16. [Create An Image for a Ruby Application](16_simply_ruby_image.md)
+16. [Create An Image for a Ruby Application](16_simple_ruby_image.md)
 17. [Setting Environment Variables](17_setting_envvars.md)
 18. [Overriding Environment Variables](18_overriding_envvars.md)
 19. [Publish Network Interfaces](19_publish_network_interfaces.md)
@@ -32,16 +32,15 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 24. [Remove Exited Containers](24_remove_exited_containers.md)
 25. [Remove Dangling Images](25_remove_dangling_images.md)
 26. [Remove all Images](26_remove_all_images.md)
-27. [Push Image]()
-28. 
+27. [List Docker Volumes](27_list_volumes.md)
+28. [Remove Docker Volume](28_remove_volume.md)
+
+ 
 <!-- Upcomming content
 [Pushing Images] 
 https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
 
-[Remove Volume] AND OTHER Volume things!
-[Remove all Dangling Images] docker rmi $(docker images -f dangling=true -q)
-[Remove all Images] docker rmi $(docker images -a -q)
-[Remove all Exited Containers] docker rm $(docker ps -a -f status=exited -q)
+docker volume ls -f dangling=true
 -->
 
 ## By Command
