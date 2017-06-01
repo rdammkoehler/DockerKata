@@ -28,7 +28,7 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 20. [Mounting Volumes](20_mounting_volumes.md)
 21. [Defining Your Network Interface](21_define_network_interface.md)
 22. [Defining Your Volume](22_define_volume.md)
-
+23. [Bypass `ENTRYPOINT`](23_bypass_entrypoint.md)
 
 <!-- Upcomming content
 [Pushing Images] 

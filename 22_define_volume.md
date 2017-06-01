@@ -155,4 +155,4 @@ thought:DockerKata rich$ docker volume rm test
 test
 ```
 
-[Previous](21_define_network_interface.md) | [Index](README.md) | [Next](#)
+[Previous](21_define_network_interface.md) | [Index](README.md) | [Next](23_bypass_entrypoint.md)
