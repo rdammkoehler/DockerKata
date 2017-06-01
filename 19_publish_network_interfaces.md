@@ -4,15 +4,15 @@ Docker Documentation References:
 
 [docker run](https://docs.docker.com/engine/reference/commandline/run/)
 
-### Intent
+##Intent
 
 The purpose of this kata is to familiarize yourself with the process of exposing a network port on a running Docker Container
 
-### Overview
+##Overview
 
 In this exercise we will run a simple [NGINX](http://nginx.org/) image and publish its network interface. 
 
-### Kata Steps
+##Kata Steps
 
 **Command**
 
@@ -29,7 +29,7 @@ thought:DockerKata rich$ docker run --detach --publish 8080:80 nginx:stable-alpi
 91b256c402a1cb4ed6745c7621be6346689236387208284cf58df430e812e248
 ```
 
-#### Test the running container
+###Test the running container
 
 **Command** (in another terminal):
 
@@ -41,7 +41,7 @@ Or [click here](http://localhost:8080)
 
 ![NGINX Screen Shot](screenshots/image_pull_and_run_kata_nginx_verification.png)
 
-#### Stop the running container
+###Stop the running container
 
 **Command**
 

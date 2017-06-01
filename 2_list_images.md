@@ -4,17 +4,17 @@ Docker Documentation References:
 
 [docker images](https://docs.docker.com/engine/reference/commandline/images/)
 
-### Intent
+##Intent
 
 The purpose of this kata is to familarize yourself with the process of listing existing images in your local docker configuration.
 
-### Overview
+##Overview
 
 In this exercise we will list the images on our local machine. We should see one image from the [previous exercise](1_pull_and_run_image.md). Later we will delete this image.
 
-### Kata Steps
+##Kata Steps
 
-#### List Images
+###List Images
 
 **Command**
 

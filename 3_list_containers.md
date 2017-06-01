@@ -8,17 +8,17 @@ Docker Documentation References:
 
 [docker stop](https://docs.docker.com/engine/reference/commandline/stop/)
 
-### Intent
+##Intent
 
 The purpose of this kata is to familiarize yourself with the process of listing containers on your local docker installation.
 
-### Overview
+##Overview
 
 In this exercise we will run an image, list running images, stop the image, and list all containers.
 
-### Kata Steps
+##Kata Steps
 
-#### Run Image
+###Run Image
 
 > Note: Here we will pass the `-d` option flag to docker, telling it to run the image in a detached mode, [more on this topic later](7_start_containers.md).
 
@@ -37,7 +37,7 @@ thought:DockerKata rich$ docker run -d nginx:alpine
 
 > In the output above, the large hash represents the running container's identity.
 
-#### List Running Containers
+###List Running Containers
 
 **Command**
 
@@ -55,7 +55,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 > In the output above, noticed the value in the NAMES value in the right most column. This is an arbitrary name assigned to the running container by the docker command. It is much easier to remember than the hash value. We will use that name to stop the running container in the next step
 
-#### Stop the Container
+###Stop the Container
 
 **Command**
 
@@ -72,7 +72,7 @@ thought:DockerKata rich$ docker stop determined_jennings
 determined_jennings
 ```
 
-#### List All Containers
+###List All Containers
 
 Using the `-a` option we can list all containers, running or otherwise. This is helpful if you want to remove a container from your system or otherwise need information about containers that you've run in the past.
 

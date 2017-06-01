@@ -6,17 +6,17 @@ Docker Documentation References:
 
 [docker images](https://docs.docker.com/engine/reference/commandline/images/)
 
-### Intent
+##Intent
 
 The purpose of this kata is to familarize yourself with the process of deleting an image from your local docker registry.
 
-### Overview
+##Overview
 
 In this exercies we will list the images on in the local registry and then delete one.
 
-### Kata Steps
+##Kata Steps
 
-#### List Images
+###List Images
 
 **Command**
 
@@ -32,7 +32,7 @@ REPOSITORY                                   TAG                 IMAGE ID       
 nginx                                        alpine              f00ab1b3ac6d        2 weeks ago         15.5 MB
 ```
 
-#### Remove image
+###Remove image
 
 **Command**
 

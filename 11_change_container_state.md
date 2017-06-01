@@ -14,17 +14,17 @@ Other References:
 
 [vim](http://www.vim.org/)
 
-### Intent
+##Intent
 
 The purpose of this kata is to familarize yourself with the notion that the containers disk and states is independet of the image that created it.
 
-### Overview
+##Overview
 
 In this exercise we will start a container, install the `vim` editor, create a document, demonstrate that the document is saved on the containers disk, stop and restart the container, and demonstrate that the document is still saved on the disk. Finally we will stop the container again.
 
-### Kata Steps
+##Kata Steps
 
-#### Start the Container
+###Start the Container
 
 **Command**
 
@@ -39,7 +39,7 @@ thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-#### Execute the `apk update` command
+###Execute the `apk update` command
 
 > Note: This updates the images list of available packages to install
 
@@ -60,7 +60,7 @@ v3.5.2-81-gf4d50b1370 [http://dl-cdn.alpinelinux.org/alpine/v3.5/community]
 OK: 7962 distinct packages available
 ```
 
-#### Execute the `apk add vim` command
+###Execute the `apk add vim` command
 
 > Note: This installs vim on the running container
 
@@ -83,7 +83,7 @@ Executing busybox-1.25.1-r0.trigger
 OK: 45 MiB in 31 packages
 ```
 
-#### Use `vim` on the container
+###Use `vim` on the container
 
 **Command**
 
@@ -99,7 +99,7 @@ docker exec -it docker_katas_nginx vim
 * Insert some text and save the file using `<ESC> :w simple.txt`
 * Then exit `vim` using `<ESC> :q`
 
-#### List files on the container to see the document you created in the prevoius step
+###List files on the container to see the document you created in the prevoius step
 
 **Command**
 
@@ -116,7 +116,7 @@ dev         lib         proc        sbin        sys         var
 etc         media       root        simple.txt  tmp
 ```
 
-#### Stop the Container
+###Stop the Container
 
 **Command**
 
@@ -131,7 +131,7 @@ thought:DockerKata rich$ docker stop docker_katas_nginx
 docker_katas_nginx
 ```
 
-#### Restart the Container
+###Restart the Container
 
 **Command**
 
@@ -146,7 +146,7 @@ thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-#### List files on the container to see the document you created in the prevoius step
+###List files on the container to see the document you created in the prevoius step
 
 **Command**
 
@@ -165,7 +165,7 @@ etc         media       root        simple.txt  tmp
 
 > Note: that your file persisted in the conainer between stops and starts, however the image used to create this container does not contain the changes (installation of vim and the simple.txt file), so additional containers created from that image will not have these things. In the next kata we will demonstrate how to create an image from a container.
 
-#### Stop the Container
+###Stop the Container
 
 **Command**
 

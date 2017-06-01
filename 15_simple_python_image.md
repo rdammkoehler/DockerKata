@@ -16,17 +16,17 @@ Other Documentation References:
 
 [Python](https://www.python.org/)
 
-### Intent
+##Intent
 
 The purpose of this kata is to familiarize yourself with the process of creating  the simplest possible image for running a python application.
 
-### Overivew
+##Overivew
 
 In this exercise we will create a simple Python application and place it in a Docker Image. We will then run that image. When we are done we will remove the image and its associated containers. 
 
-### Kata Steps
+##Kata Steps
 
-#### Create a Python Application
+###Create a Python Application
 
 **Command**:
 
@@ -38,7 +38,7 @@ The file should contain the following code
 print('Hello World')
 ```
 
-#### Test the application
+###Test the application
 
 **Command**
 
@@ -53,7 +53,7 @@ thought:DockerKata rich$ python hello_world.py
 Hello World
 ```
 
-#### Create a `Dockerfile`
+###Create a `Dockerfile`
 
 Use an editor to create a file name python_hello_world_Dockerfile, or copy the [python_hello_world_Dockerfile](python_hello_world_Dockerfile) from this repository.
 
@@ -68,7 +68,7 @@ COPY hello_world.py /
 ENTRYPOINT [ "python", "hello_world.py" ]
 ```
 
-#### Build the Image
+###Build the Image
 
 **Command**
 
@@ -96,7 +96,7 @@ Removing intermediate container 1159a6589c4f
 Successfully built c5c27efb5127
 ```
 
-#### List Images
+###List Images
 
 **Command**
 
@@ -113,7 +113,7 @@ REPOSITORY                                   TAG                 IMAGE ID       
 
 > Note: We will use the `IMAGE ID` which will differ from machine to machine, so you must select what is on your computer for the next two steps.
 
-#### Run the Image
+###Run the Image
 
 **Command**
 
@@ -128,7 +128,7 @@ thought:DockerKata rich$ docker run 167b6bbcdc92
 Hello World
 ```
 
-#### Delete the Image (and related container)
+###Delete the Image (and related container)
 
 **Command**
 

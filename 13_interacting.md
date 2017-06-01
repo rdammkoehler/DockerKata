@@ -4,17 +4,17 @@ Docker Documentation References:
 
 [docker exec](https://docs.docker.com/engine/reference/commandline/exec/)
 
-### Intent
+##Intent
 
 The purpose of this kata is to familiarize yourself with the process of executing interactive commands on a running container.
 
-### Overview
+##Overview
 
 In this exerciese we will start a container and open an interactive shell where we can execute arbitrary commands against the running container. We will then stop the container.
 
-### Kata Steps
+##Kata Steps
 
-#### Start the Container
+###Start the Container
 
 **Command**
 
@@ -29,7 +29,7 @@ thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-#### Open a Shell on the container
+###Open a Shell on the container
 
 **Command**
 
@@ -46,7 +46,7 @@ thought:DockerKata rich$ docker exec -it docker_katas_nginx sh
 
 > Note: Your are now in a shell window on the Container
 
-#### Interact with the Container
+###Interact with the Container
 
 **Command**
 
@@ -91,7 +91,7 @@ exit
 thought:DockerKata rich$
 ```
 
-#### Stop the current container
+###Stop the current container
 
 **Command**
 
