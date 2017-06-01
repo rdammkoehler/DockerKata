@@ -1,0 +1,10 @@
+FROM alpine:3.6
+MAINTAINER rpd@noradltd.com
+
+RUN apk update \
+    && apk add fortune
+
+EXPOSE 17
+
+ENTRYPOINT [ "nc", "-lk", "-p", "17", "-e", "fortune" ]
+

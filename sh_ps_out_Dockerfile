@@ -1,0 +1,8 @@
+FROM alpine:3.6
+MAINTAINER rpd@noradltd.com
+
+VOLUME /docker_kata_vol
+
+RUN mkdir -p /docker_kata_vol
+ENTRYPOINT /bin/ps -ef > /docker_kata_vol/ps.out
+
