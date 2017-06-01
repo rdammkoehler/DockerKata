@@ -29,11 +29,15 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 21. [Defining Your Network Interface](21_define_network_interface.md)
 22. [Defining Your Volume](22_define_volume.md)
 23. [Bypass `ENTRYPOINT`](23_bypass_entrypoint.md)
-
+24. [Remove Exited Containers](24_remove_exited_containers.md)
+25. [Remove Dangling Images](25_remove_dangling_images.md)
+26. [Remove all Images](26_remove_all_images.md)
+27. [Push Image]()
+28. 
 <!-- Upcomming content
 [Pushing Images] 
 https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
-[Force shell on bad entrypoint] docker run -it -v test:/docker_kata_vol --entrypoint sh ps_out:latest
+
 [Remove Volume] AND OTHER Volume things!
 [Remove all Dangling Images] docker rmi $(docker images -f dangling=true -q)
 [Remove all Images] docker rmi $(docker images -a -q)

@@ -8,6 +8,10 @@ Docker Documentation References:
 
 [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
 
+Other documentation:
+
+[Adrian Oprea -- How to properly override the ENTRYPOINT using docker run](https://medium.com/@opreaadrian/how-to-properly-override-the-entrypoint-using-docker-run-2e081e5feb9d)
+
 ## Intent
 
 The purpose of this kata is to familiarize yourself with the process of running an image and bypassing its entrypoint safely.
@@ -134,4 +138,4 @@ Deleted: sha256:e75fa49659ec8d02842c441c3bbc9888c591c95fdfb17aa00aed3b5722bda1ad
 Deleted: sha256:2355765f82a2d13147aabb48d682bc3284c71d8a5c8b458e18bcf69c58303d7e
 ```
 
-[Previous](22_define_volume.md) | [Index](README.md) | [Next](#)
+[Previous](22_define_volume.md) | [Index](README.md) | [Next](24_remove_exited_containers.md)
