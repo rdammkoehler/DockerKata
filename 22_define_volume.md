@@ -24,7 +24,7 @@ In this exercise we will create a docker image that writes to a host volume when
 
 ##### Create a `Dockerfile`
 
-Use and editor to create a file named sh_http_lcl_Dockerfile, or copy the [sh_http_lcl_Dockerfile](sh_http_lcl_Dockerfile) from this repository.
+Use and editor to create a file named sh_ps_out_Dockerfile, or copy the [sh_ps_out_Dockerfile](sh_ps_out_Dockerfile) from this repository.
 
 The file should contain the following
 
