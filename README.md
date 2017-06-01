@@ -32,6 +32,12 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 
 <!-- Upcomming content
 [Pushing Images] 
+https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
+[Force shell on bad entrypoint] docker run -it -v test:/docker_kata_vol --entrypoint sh ps_out:latest
+[Remove Volume] AND OTHER Volume things!
+[Remove all Dangling Images] docker rmi $(docker images -f dangling=true -q)
+[Remove all Images] docker rmi $(docker images -a -q)
+[Remove all Exited Containers] docker rm $(docker ps -a -f status=exited -q)
 -->
 
 ### By Command
