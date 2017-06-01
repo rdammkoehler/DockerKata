@@ -26,6 +26,8 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 18. [Overriding Environment Variables](18_overriding_envvars.md)
 19. [Publish Network Interfaces](19_publish_network_interfaces.md)
 20. [Mounting Volumes](20_mounting_volumes.md)
+21. [Defining Your Network Interface](21_define_network_interface.md)
+22. [Defining Your Volume](22_define_volume.md)
 
 
 <!-- Upcomming content

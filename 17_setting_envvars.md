@@ -2,7 +2,16 @@
 
 Docker Documentation References:
 
-s
+[Dockerfile](https://docs.docker.com/engine/reference/builder/)
+
+[docker build](https://docs.docker.com/engine/reference/commandline/build/)
+
+[docker run](https://docs.docker.com/engine/reference/commandline/run/)
+
+[docker images](https://docs.docker.com/engine/reference/commandline/images/)
+
+[docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
+
 ### Intent
 
 The purpose of this kata is to familiarize yourself with the process of setting an environment variable within the Dockerfile.
@@ -28,7 +37,7 @@ ENV DOCKER_USER_NAME Timmy
 ENTRYPOINT [ "sh", "-c", "echo $DOCKER_USER_NAME" ]
 ```
 
-##### Build the IMage
+##### Build the Image
 
 **Command:**
 
