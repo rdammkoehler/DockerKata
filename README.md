@@ -3,6 +3,9 @@ Some [katas](https://en.wikipedia.org/wiki/Kata) for using [docker](https://www.
 
 The intent here is to create a training aid for new and forgetful Docker users. We've mostly just pulled these together from around the internet, out of books, or made them up. If you see something missing and you'd like to contribute, please feel free to create a [Pull Request](https://help.github.com/articles/creating-a-pull-request/) on this repo.
 
+## Setup
+
+0. [Docker In Docker](0_docker_in_docker.md)
 
 ## Recommended Order For Learning
 
@@ -37,6 +40,12 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 
  
 <!-- Upcomming content
+
+Extra Page: How to Run Docker Inside of Docker so you can do these kata's without screwing up your local repository etc. >>>>>>  docker run --privileged --name meta-docker -d docker:stable-dind
+ 
+ ^^^ Will need to mod so it exposes the necessary network ports (17, 8080, etc.) so the examples will work (even in priv mode?)
+
+
 [Pushing Images] 
 https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
 
