@@ -62,41 +62,6 @@ The expectation is that you will use the Docker In Docker (aka *meta-docker*) ap
 [Pushing Images] 
 https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
 
-docker logs, fetch logs from a container (show --follow and other opts of course)
-
-docker rename {container}, rename a container (handy)
-
-docker restart {container}, duh
-
-docker volume ls -f dangling=true
-
-docker attach, attach to a running container
-
-docker create, create a new container (doesn't start the container)
-
-docker history {image}, get the history of an image 
-
-docker info, system info on docker
-
-docker kill, kill a running container
-
-docker login, login to a remote repo (covered somewhere already I think)
-
-docker logout, logout of a repo
-
-Might be good to have some kind of 'change accounts' kata.
-
-docker stats, get stats on running containers
-
-docker port, how to see the open network interface ports on a running container
-
-docker pause, how to pause the execution of a container
-docker unpause, how to unpuase the execution of a container
-
-docker update, update the configuration of a container
-
-docker wait, wait for one or more containers to stop
-
 Other:
 Run your own registry
 Run your own registry INSIDE docker (which only makes sense)
