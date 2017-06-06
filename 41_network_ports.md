@@ -2,7 +2,13 @@
 
 Docker Documentation References:
 
-[]()
+[docker port](https://docs.docker.com/engine/reference/commandline/port/)
+
+[docker run](https://docs.docker.com/engine/reference/commandline/run/)
+
+[docker stop](https://docs.docker.com/engine/reference/commandline/stop/)
+
+[docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
 
 ## Intent
 

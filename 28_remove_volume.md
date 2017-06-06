@@ -2,7 +2,13 @@
 
 Docker Documentation References:
 
-[]()
+[docker volume ls](https://docs.docker.com/engine/reference/commandline/volume_ls/)
+
+[docker run](https://docs.docker.com/engine/reference/commandline/run/)
+
+[docker volume rm](https://docs.docker.com/engine/reference/commandline/volume_rm/)
+
+[docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
 
 ## Intent
 

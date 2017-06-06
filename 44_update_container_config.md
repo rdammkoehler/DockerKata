@@ -2,7 +2,13 @@
 
 Docker Documentation References:
 
-[]()
+[docker update](https://docs.docker.com/engine/reference/commandline/update/)
+
+[docker run](https://docs.docker.com/engine/reference/commandline/run/)
+
+[docker stop](https://docs.docker.com/engine/reference/commandline/stop/)
+
+[docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
 
 ## Intent
 

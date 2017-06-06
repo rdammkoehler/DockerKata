@@ -2,7 +2,15 @@
 
 Docker Documentation References:
 
-[]()
+[docker pause](https://docs.docker.com/engine/reference/commandline/pause/)
+
+[docker unpause](https://docs.docker.com/engine/reference/commandline/unpause/)
+
+[docker run](https://docs.docker.com/engine/reference/commandline/run/)
+
+[docker stop](https://docs.docker.com/engine/reference/commandline/stop/)
+
+[docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
 
 ## Intent
 

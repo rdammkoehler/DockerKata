@@ -2,7 +2,15 @@
 
 Docker Documentation References:
 
-[]()
+[docker kill](https://docs.docker.com/engine/reference/commandline/kill/)
+
+[docker run](https://docs.docker.com/engine/reference/commandline/run/)
+
+[docker ps](https://docs.docker.com/engine/reference/commandline/ps/)
+
+[docker stop](https://docs.docker.com/engine/reference/commandline/stop/)
+
+[docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
 
 ## Intent
 

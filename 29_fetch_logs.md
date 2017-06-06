@@ -2,7 +2,19 @@
 
 Docker Documentation References:
 
-[]()
+[docker logs](https://docs.docker.com/engine/reference/commandline/logs/)
+
+[docker run](https://docs.docker.com/engine/reference/commandline/run/)
+
+[docker ps](https://docs.docker.com/engine/reference/commandline/ps/)
+
+[docker stop](https://docs.docker.com/engine/reference/commandline/stop/)
+
+[docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
+
+Other documentation:
+
+[`wget`](https://www.gnu.org/software/wget/manual/wget.html)
 
 ## Intent
 

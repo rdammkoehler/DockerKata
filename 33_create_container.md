@@ -2,7 +2,11 @@
 
 Docker Documentation References:
 
-[]()
+[docker create](https://docs.docker.com/engine/reference/commandline/create/)
+
+[docker ps](https://docs.docker.com/engine/reference/commandline/ps/)
+
+[docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
 
 ## Intent
 

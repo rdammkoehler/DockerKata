@@ -2,7 +2,9 @@
 
 Docker Documentation References:
 
-[]()
+[docker login](https://docs.docker.com/engine/reference/commandline/login/)
+
+[docker logout](https://docs.docker.com/engine/reference/commandline/logout/)
 
 ## Intent
 

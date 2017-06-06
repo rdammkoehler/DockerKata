@@ -2,7 +2,7 @@
 
 Docker Documentation References:
 
-[]()
+[docker logout](https://docs.docker.com/engine/reference/commandline/logout/)
 
 ## Intent
 
