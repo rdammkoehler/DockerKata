@@ -1,5 +1,7 @@
 # Change The State of The Container
 
+> WARNING: This Kata is behaving strangely in when using the [`meta-docker`](0_docker_in_docker.md) approach. Be warned that your container might freeze up.
+
 Docker Documentation References:
 
 [docker exec](https://docs.docker.com/engine/reference/commandline/exec/)
