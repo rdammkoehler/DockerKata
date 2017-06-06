@@ -44,13 +44,13 @@ Status: Downloaded newer image for nginx:alpine
 **Command**
 
 ```bash
-docker create --name docker_katas_nginx nginx:alpine
+docker create --name docker_katas_nginx -p 80:80 nginx:alpine
 ```
 
 **Output**
 
 ```bash
-thought:DockerKata rich$ docker create --name docker_katas_nginx nginx:alpine
+thought:DockerKata rich$ docker create --name docker_katas_nginx -p 80:80 nginx:alpine
 52450ca5b4a9926bb18594fac1c6677fe50c99af995d9720ace45b81dd88bc0e
 ```
 
