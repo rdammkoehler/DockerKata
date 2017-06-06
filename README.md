@@ -66,8 +66,7 @@ Other:
 Run your own registry
 Run your own registry INSIDE docker (which only makes sense)
 
--->
-
 ## By Command
 
 <TODO>
+-->
