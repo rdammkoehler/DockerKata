@@ -42,13 +42,13 @@ Status: Downloaded newer image for nginx:alpine
 **Command**
 
 ```bash
-docker run -p 8080:80 nginx:alpine
+docker run -p 80:80 nginx:alpine
 ```
 
 **Output**
 
 ```bash
-thought:DockerKata rich$ docker run -p 8080:80 nginx:alpine
+thought:DockerKata rich$ docker run -p 80:80 nginx:alpine
 ```
 
 ### Test the running container
@@ -60,6 +60,8 @@ open http://localhost:8080
 ```
 
 Or [click here](http://localhost:8080)
+
+> Note: This works because your *meta-docker* container has exposed port 80 on localhost port 8080. If you are executing this kata outside of the *meta-docker* contianer use port 80 only.
 
 **Output**
 

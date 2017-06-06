@@ -5,6 +5,8 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 
 ## Setup
 
+The expectation is that you will use the Docker In Docker (aka *meta-docker*) approach to execute these katas. Look for notes in the kata for how to run without the *meta-docker* settings.
+
 0. [Docker In Docker](0_docker_in_docker.md)
 
 ## Recommended Order For Learning
@@ -37,14 +39,25 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 26. [Remove all Images](26_remove_all_images.md)
 27. [List Docker Volumes](27_list_volumes.md)
 28. [Remove Docker Volume](28_remove_volume.md)
-
+29. [Fetch Logs From a Container](29_fetch_logs.md)
+30. [Rename a Container](30_rename_container.md)
+31. [Restart a Container](31_restart_container.md)
+32. [Attach to a Running Container](32_attach_container.md)
+33. [Create, but don't start, a Container](33_create_container.md)
+34. [List the History of an Image](34_image_history.md)
+35. [Get Info on Docker](35_system_info.md)
+36. [Kill a Running Container](36_kill_container.md)
+37. [Login to Docker](37_login.md)
+38. [Logout of Docker](38_logout.md)
+39. [Change between Remotes](39_change_repos.md)
+40. [Get Stats on Running Containers](40_stats.md)
+41. [List Network Interface Ports](41_network_ports.md)
+42. [Pause a Container](42_pause_container.md)
+43. [Unpause a Container](43_unpause_container.md)
+44. [Update a Container Configuration](44_update_container_config.md)
+45. [Wait for a Container to Stop](45_wait_for_container.md)
  
 <!-- Upcomming content
-
-Extra Page: How to Run Docker Inside of Docker so you can do these kata's without screwing up your local repository etc. >>>>>>  docker run --privileged --name meta-docker -d docker:stable-dind
- 
- ^^^ Will need to mod so it exposes the necessary network ports (17, 8080, etc.) so the examples will work (even in priv mode?)
-
 
 [Pushing Images] 
 https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes

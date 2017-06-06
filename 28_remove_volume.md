@@ -130,4 +130,4 @@ thought:DockerKata rich$ docker volume rm html
 html
 ```
 
-[Previous](27_list_volumes.md) | [Index](README.md) | [Next](#)
+[Previous](27_list_volumes.md) | [Index](README.md) | [Next](29_fetch_logs.md)
