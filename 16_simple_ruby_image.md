@@ -30,6 +30,12 @@ In this exercise we will create a simple Ruby application and place it in a Dock
 
 **Command**:
 
+Create a directory for called rbcode and cd into it
+
+```bash
+mkdir rbcode && cd rbcode
+```
+
 Use an editor to create a file named [hello_world.rb](hello_world.rb), or use the file contained in this repository
 
 The file should contain the following code
@@ -136,6 +142,14 @@ docker run 167b6bbcdc92
 ```bash
 thought:DockerKata rich$ docker run cc70f6402870
 Hello World
+```
+
+### Change Directory Back to the root dir
+
+**Command**
+
+```bash
+cd ..
 ```
 
 ### Delete the Image (and related container)
