@@ -26,7 +26,7 @@ In this exercise we will create a simple Ruby application and place it in a Dock
 
 ## Kata Steps
 
-### Create a Python Application
+### Create a Ruby Application
 
 **Command**:
 
@@ -55,7 +55,7 @@ Hello World
 
 ### Create a `Dockerfile`
 
-Use an editor to create a file name python_hello_world_Dockerfile, or copy the [python_hello_world_Dockerfile](python_hello_world_Dockerfile) from this repository.
+Use an editor to create a file name ruby_hello_world_Dockerfile, or copy the [ruby_hello_world_Dockerfile](ruby_hello_world_Dockerfile) from this repository.
 
 The file should contian the following
 
