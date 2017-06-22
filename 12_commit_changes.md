@@ -48,7 +48,7 @@ docker_katas_nginx
 **Command**
 
 ```bash
-docker commit --message 'added vim and simple.txt` docker_katas_nginx 
+docker commit --message 'added vim and simple.txt' docker_katas_nginx 
 ```
 
 **Output**
