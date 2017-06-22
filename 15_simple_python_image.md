@@ -30,6 +30,12 @@ In this exercise we will create a simple Python application and place it in a Do
 
 **Command**:
 
+Create a directory called pycode and change directory into that location.
+
+```bash
+mkdir pycode && cd pycode
+```
+
 Use an editor to create a file named [hello_world.py](hello_world.py), or use the file contained in this repository
 
 The file should contain the following code
@@ -126,6 +132,13 @@ docker run 167b6bbcdc92
 ```bash
 thought:DockerKata rich$ docker run 167b6bbcdc92
 Hello World
+```
+### Return to the root directory
+
+**Command**
+
+```bash
+cd ..
 ```
 
 ### Delete the Image (and related container)
