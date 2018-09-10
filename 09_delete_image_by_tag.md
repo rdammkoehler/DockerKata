@@ -64,4 +64,4 @@ REPOSITORY                                   TAG                 IMAGE ID       
 nginx                                        alpine              f00ab1b3ac6d        2 weeks ago         15.5 MB
 ```
 
-[Previous](8_tag_an_image.md) | [Index](README.md) | [Next](10_exec_in_container.md)
+[Previous](08_tag_an_image.md) | [Index](README.md) | [Next](10_exec_in_container.md)

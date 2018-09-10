@@ -66,4 +66,4 @@ nginx                                        alpine              f00ab1b3ac6d   
 nginx                                        mine                f00ab1b3ac6d        2 weeks ago         15.5 MB
 ```
 
-[Previous](7_start_containers.md) | [Index](README.md) | [Next](9_delete_image_by_tag.md)
+[Previous](07_start_containers.md) | [Index](README.md) | [Next](09_delete_image_by_tag.md)

@@ -1,6 +1,6 @@
 # Change The State of The Container
 
-> WARNING: This Kata is behaving strangely in when using the [`meta-docker`](0_docker_in_docker.md) approach. Be warned that your container might freeze up.
+> WARNING: This Kata is behaving strangely in when using the [`meta-docker`](00_docker_in_docker.md) approach. Be warned that your container might freeze up.
 
 Docker Documentation References:
 
@@ -97,7 +97,7 @@ docker exec -it docker_katas_nginx vim
 
 **Output**
 
-* You should find yourself in a vim session. 
+* You should find yourself in a vim session.
 * Insert some text and save the file using `<ESC> :w simple.txt`
 * Then exit `vim` using `<ESC> :q`
 

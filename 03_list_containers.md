@@ -20,7 +20,7 @@ In this exercise we will run an image, list running images, stop the image, and 
 
 ### Run Image
 
-> Note: Here we will pass the `-d` option flag to docker, telling it to run the image in a detached mode, [more on this topic later](7_start_containers.md).
+> Note: Here we will pass the `-d` option flag to docker, telling it to run the image in a detached mode, [more on this topic later](07_start_containers.md).
 
 **Command**
 
@@ -59,7 +59,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 **Command**
 
-> Note: We will stop the detached container using its name. Alternately you can use the hash value. 
+> Note: We will stop the detached container using its name. Alternately you can use the hash value.
 
 ```bash
 docker stop determined_jennings
@@ -90,4 +90,4 @@ CONTAINER ID        IMAGE                          COMMAND                  CREA
 11c3e639eaa9        nginx:alpine                   "nginx -g 'daemon ..."   2 minutes ago       Exited (0) 30 seconds ago                       determined_jennings
 ```
 
-[Previous](2_list_images.md) | [Index](README.md) | [Next](4_delete_container.md)
+[Previous](02_list_images.md) | [Index](README.md) | [Next](04_delete_container.md)

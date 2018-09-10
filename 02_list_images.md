@@ -10,7 +10,7 @@ The purpose of this kata is to familarize yourself with the process of listing e
 
 ## Overview
 
-In this exercise we will list the images on our local machine. We should see one image from the [previous exercise](1_pull_and_run_image.md). Later we will delete this image.
+In this exercise we will list the images on our local machine. We should see one image from the [previous exercise](01_pull_and_run_image.md). Later we will delete this image.
 
 ## Kata Steps
 
@@ -30,4 +30,4 @@ REPOSITORY                                   TAG                 IMAGE ID       
 nginx                                        alpine              f00ab1b3ac6d        2 weeks ago         15.5 MB
 ```
 
-[Previous](1_pull_and_run_image.md) | [Index](README.md) | [Next](3_list_containers.md)
+[Previous](01_pull_and_run_image.md) | [Index](README.md) | [Next](03_list_containers.md)

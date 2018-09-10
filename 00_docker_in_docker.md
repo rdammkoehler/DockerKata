@@ -1,6 +1,6 @@
 # Docker In Docker
 
-Many of the exercises herein can be destructive to your docker environment. If you are so inclined you can run Docker inside of Docker so that you can make changes to environment (even destructive ones) without upsetting your daily routines outside of the Kata exercises. The following instructions provide setup for running Docker Inside of Docker. 
+Many of the exercises herein can be destructive to your docker environment. If you are so inclined you can run Docker inside of Docker so that you can make changes to environment (even destructive ones) without upsetting your daily routines outside of the Kata exercises. The following instructions provide setup for running Docker Inside of Docker.
 
 > Throughout the documentaiton we will refer to this Docker In Docker container as *meta-docker*. Each set of instructions will contain notes on how (if possible) you can execute these commands without the *meta-docker* in place, or otherwise point out the differences in behavior you will see.
 

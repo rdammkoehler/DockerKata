@@ -69,7 +69,7 @@ Or [click here](http://localhost:8080)
 
 ### Stop the running container
 
-Use `Ctrl-C` on the command line where you executed 
+Use `Ctrl-C` on the command line where you executed
 
-[Previous](#) | [Index](README.md) | [Next](2_list_images.md)
+[Previous](#) | [Index](README.md) | [Next](02_list_images.md)
 
