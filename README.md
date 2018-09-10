@@ -7,19 +7,19 @@ The intent here is to create a training aid for new and forgetful Docker users. 
 
 The expectation is that you will use the Docker In Docker (aka *meta-docker*) approach to execute these katas. Look for notes in the kata for how to run without the *meta-docker* settings.
 
-0. [Docker In Docker](0_docker_in_docker.md)
+0. [Docker In Docker](00_docker_in_docker.md)
 
 ## Recommended Order For Learning
 
-1. [Pull and Run an Image](1_pull_and_run_image.md)
-2. [List Images](2_list_images.md)
-3. [List Containers](3_list_containers.md)
-4. [Delete Container](4_delete_container.md)
-5. [Delete Image](5_delete_image.md)
-6. [Named Containers](6_named_containers.md)
-7. [Start Containers](7_start_containers.md)
-8. [Tag an Image](8_tag_an_image.md)
-9. [Delete and Image by Tag](9_delete_image_by_tag.md)
+1. [Pull and Run an Image](01_pull_and_run_image.md)
+2. [List Images](02_list_images.md)
+3. [List Containers](03_list_containers.md)
+4. [Delete Container](04_delete_container.md)
+5. [Delete Image](05_delete_image.md)
+6. [Named Containers](06_named_containers.md)
+7. [Start Containers](07_start_containers.md)
+8. [Tag an Image](08_tag_an_image.md)
+9. [Delete and Image by Tag](09_delete_image_by_tag.md)
 10. [Execute Command In Container](10_exec_in_container.md)
 11. [Change The State of The Container](11_change_container_state.md)
 12. [Commit Changes](12_commit_changes.md)
@@ -56,10 +56,10 @@ The expectation is that you will use the Docker In Docker (aka *meta-docker*) ap
 43. [Unpause a Container](43_unpause_container.md)
 44. [Update a Container Configuration](44_update_container_config.md)
 45. [Wait for a Container to Stop](45_wait_for_container.md)
- 
+
 <!-- Upcomming content
 
-[Pushing Images] 
+[Pushing Images]
 https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
 
 Other:
@@ -94,7 +94,7 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Create Container](33_create_container.md)
 
-[Named Containers](6_named_containers.md)
+[Named Containers](06_named_containers.md)
 
 **exec**
 
@@ -120,11 +120,11 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Define Volume](22_define_volume.md)
 
-[Delete Image](5_delete_image.md)
+[Delete Image](05_delete_image.md)
 
-[Delete Image By Tag](9_delete_image_by_tag.md)
+[Delete Image By Tag](09_delete_image_by_tag.md)
 
-[List Images](2_list_images.md)
+[List Images](02_list_images.md)
 
 [Overriding Envvars](18_overriding_envvars.md)
 
@@ -140,7 +140,7 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Simple Ruby Image](16_simple_ruby_image.md)
 
-[Tag An Image](8_tag_an_image.md)
+[Tag An Image](08_tag_an_image.md)
 
 **info**
 
@@ -182,15 +182,15 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Create Container](33_create_container.md)
 
-[Delete Container](4_delete_container.md)
+[Delete Container](04_delete_container.md)
 
 [Fetch Logs](29_fetch_logs.md)
 
 [Kill Container](36_kill_container.md)
 
-[List Containers](3_list_containers.md)
+[List Containers](03_list_containers.md)
 
-[Named Containers](6_named_containers.md)
+[Named Containers](06_named_containers.md)
 
 [Remove Exited Containers](24_remove_exited_containers.md)
 
@@ -200,11 +200,11 @@ Run your own registry INSIDE docker (which only makes sense)
 
 **pull**
 
-[Named Containers](6_named_containers.md)
+[Named Containers](06_named_containers.md)
 
-[Pull And Run Image](1_pull_and_run_image.md)
+[Pull And Run Image](01_pull_and_run_image.md)
 
-[Tag An Image](8_tag_an_image.md)
+[Tag An Image](08_tag_an_image.md)
 
 **push**
 
@@ -226,7 +226,7 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Create Container](33_create_container.md)
 
-[Delete Container](4_delete_container.md)
+[Delete Container](04_delete_container.md)
 
 [Fetch Logs](29_fetch_logs.md)
 
@@ -262,9 +262,9 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Define Volume](22_define_volume.md)
 
-[Delete Image](5_delete_image.md)
+[Delete Image](05_delete_image.md)
 
-[Delete Image By Tag](9_delete_image_by_tag.md)
+[Delete Image By Tag](09_delete_image_by_tag.md)
 
 [Overriding Envvars](18_overriding_envvars.md)
 
@@ -294,7 +294,7 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Kill Container](36_kill_container.md)
 
-[List Containers](3_list_containers.md)
+[List Containers](03_list_containers.md)
 
 [List Volumes](27_list_volumes.md)
 
@@ -308,7 +308,7 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Publish Network Interfaces](19_publish_network_interfaces.md)
 
-[Pull And Run Image](1_pull_and_run_image.md)
+[Pull And Run Image](01_pull_and_run_image.md)
 
 [Remove Volume](28_remove_volume.md)
 
@@ -336,7 +336,7 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Commit Changes](12_commit_changes.md)
 
-[Start Containers](7_start_containers.md)
+[Start Containers](07_start_containers.md)
 
 **stats**
 
@@ -354,7 +354,7 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Kill Container](36_kill_container.md)
 
-[List Containers](3_list_containers.md)
+[List Containers](03_list_containers.md)
 
 [List Volumes](27_list_volumes.md)
 
@@ -366,7 +366,7 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Restart Container](31_restart_container.md)
 
-[Start Containers](7_start_containers.md)
+[Start Containers](07_start_containers.md)
 
 [Stats](40_stats.md)
 
@@ -380,7 +380,7 @@ Run your own registry INSIDE docker (which only makes sense)
 
 [Pushing Images](14_pushing_images.md)
 
-[Tag An Image](8_tag_an_image.md)
+[Tag An Image](08_tag_an_image.md)
 
 **unpause**
 

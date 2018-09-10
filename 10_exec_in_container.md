@@ -62,4 +62,4 @@ thought:DockerKata rich$ docker stop docker_katas_nginx
 docker_katas_nginx
 ```
 
-[Previous](9_delete_image_by_tag.md) | [Index](README.md) | [Next](11_change_container_state.md)
+[Previous](09_delete_image_by_tag.md) | [Index](README.md) | [Next](11_change_container_state.md)

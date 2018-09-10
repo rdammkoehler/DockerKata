@@ -22,7 +22,7 @@
 
 [Create Container](33_create_container.md)
 
-[Named Containers](6_named_containers.md)
+[Named Containers](06_named_containers.md)
 
 **exec**
 
@@ -48,11 +48,11 @@
 
 [Define Volume](22_define_volume.md)
 
-[Delete Image](5_delete_image.md)
+[Delete Image](05_delete_image.md)
 
-[Delete Image By Tag](9_delete_image_by_tag.md)
+[Delete Image By Tag](09_delete_image_by_tag.md)
 
-[List Images](2_list_images.md)
+[List Images](02_list_images.md)
 
 [Overriding Envvars](18_overriding_envvars.md)
 
@@ -68,7 +68,7 @@
 
 [Simple Ruby Image](16_simple_ruby_image.md)
 
-[Tag An Image](8_tag_an_image.md)
+[Tag An Image](08_tag_an_image.md)
 
 **info**
 
@@ -110,15 +110,15 @@
 
 [Create Container](33_create_container.md)
 
-[Delete Container](4_delete_container.md)
+[Delete Container](04_delete_container.md)
 
 [Fetch Logs](29_fetch_logs.md)
 
 [Kill Container](36_kill_container.md)
 
-[List Containers](3_list_containers.md)
+[List Containers](03_list_containers.md)
 
-[Named Containers](6_named_containers.md)
+[Named Containers](06_named_containers.md)
 
 [Remove Exited Containers](24_remove_exited_containers.md)
 
@@ -128,11 +128,11 @@
 
 **pull**
 
-[Named Containers](6_named_containers.md)
+[Named Containers](06_named_containers.md)
 
-[Pull And Run Image](1_pull_and_run_image.md)
+[Pull And Run Image](01_pull_and_run_image.md)
 
-[Tag An Image](8_tag_an_image.md)
+[Tag An Image](08_tag_an_image.md)
 
 **push**
 
@@ -154,7 +154,7 @@
 
 [Create Container](33_create_container.md)
 
-[Delete Container](4_delete_container.md)
+[Delete Container](04_delete_container.md)
 
 [Fetch Logs](29_fetch_logs.md)
 
@@ -190,9 +190,9 @@
 
 [Define Volume](22_define_volume.md)
 
-[Delete Image](5_delete_image.md)
+[Delete Image](05_delete_image.md)
 
-[Delete Image By Tag](9_delete_image_by_tag.md)
+[Delete Image By Tag](09_delete_image_by_tag.md)
 
 [Overriding Envvars](18_overriding_envvars.md)
 
@@ -222,7 +222,7 @@
 
 [Kill Container](36_kill_container.md)
 
-[List Containers](3_list_containers.md)
+[List Containers](03_list_containers.md)
 
 [List Volumes](27_list_volumes.md)
 
@@ -236,7 +236,7 @@
 
 [Publish Network Interfaces](19_publish_network_interfaces.md)
 
-[Pull And Run Image](1_pull_and_run_image.md)
+[Pull And Run Image](01_pull_and_run_image.md)
 
 [Remove Volume](28_remove_volume.md)
 
@@ -264,7 +264,7 @@
 
 [Commit Changes](12_commit_changes.md)
 
-[Start Containers](7_start_containers.md)
+[Start Containers](07_start_containers.md)
 
 **stats**
 
@@ -282,7 +282,7 @@
 
 [Kill Container](36_kill_container.md)
 
-[List Containers](3_list_containers.md)
+[List Containers](03_list_containers.md)
 
 [List Volumes](27_list_volumes.md)
 
@@ -294,7 +294,7 @@
 
 [Restart Container](31_restart_container.md)
 
-[Start Containers](7_start_containers.md)
+[Start Containers](07_start_containers.md)
 
 [Stats](40_stats.md)
 
@@ -308,7 +308,7 @@
 
 [Pushing Images](14_pushing_images.md)
 
-[Tag An Image](8_tag_an_image.md)
+[Tag An Image](08_tag_an_image.md)
 
 **unpause**
 

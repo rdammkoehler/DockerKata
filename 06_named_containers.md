@@ -70,4 +70,4 @@ CONTAINER ID        IMAGE                          COMMAND                  CREA
 52450ca5b4a9        nginx:alpine                   "nginx -g 'daemon ..."   37 seconds ago      Created                                        docker_katas_nginx
 ```
 
-[Previous](5_delete_image.md) | [Index](README.md) | [Next](7_start_containers.md)
+[Previous](05_delete_image.md) | [Index](README.md) | [Next](07_start_containers.md)
