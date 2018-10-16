@@ -8,15 +8,15 @@ Docker Documentation References:
 
 ## Intent
 
-The purpose of this kata is to familarize yourself with the process of removing a container from your local docker installation.
+The purpose of this kata is to familiarize yourself with the process of removing a container from your local docker installation.
 
 ## Overview
 
-In this exercise we will delete the most recent container we created in the previous exercises.
+In this exercise, we will delete the most recent container we created in the previous exercises.
 
 ## Kata Steps
 
-### List Contianers
+### List Containers
 
 **Command**
 

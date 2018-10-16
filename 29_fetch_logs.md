@@ -22,7 +22,7 @@ The purpose of this kata is to familiarize yourself with the process of fetching
 
 ## Overview
 
-In this exercise we will start a container and interact with it through a web browser, causing it to create log output. We will then get log output using a docker command. We will then stop the container.
+In this exercise, we will start a container and interact with it through a web browser, causing it to create log output. We will then get log output using a docker command. We will then stop the container.
 
 ## Kata Steps
 
@@ -73,7 +73,7 @@ docker logs affectionate_kalam
 / # docker logs affectionate_kalam
 ```
 
-> Because there have been no interactions with the container you should get no resluts, nothing has been logged yet
+> Because there have been no interactions with the container you should get no results, nothing has been logged yet
 
 ### Visit the Web Server
 

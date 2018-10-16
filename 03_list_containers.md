@@ -14,7 +14,7 @@ The purpose of this kata is to familiarize yourself with the process of listing 
 
 ## Overview
 
-In this exercise we will run an image, list running images, stop the image, and list all containers.
+In this exercise, we will run an image, list running images, stop the image, and list all containers.
 
 ## Kata Steps
 

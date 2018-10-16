@@ -16,7 +16,7 @@ The intent of this exercise it to familiarize yourself with the `exec` command, 
 
 ## Overview
 
-In this exercise we will create a container running detached. Then we will use `exec` to start a shell on that container and run some commands. We will then exit the shell, disconnecting us from the container. Finally, we will stop the container and remove it.
+In this exercise, we will create a container running detached. Then we will use `exec` to start a shell on that container and run some commands. We will then exit the shell, disconnecting us from the container. Finally, we will stop the container and remove it.
 
 ## Kata Steps
 
@@ -35,7 +35,7 @@ docker run -d nginx:alpine
 381c2c925259a8774f78e77f23e4f477b1206eb3bf847c306b21666b4e92f917
 ```
 
-### Attach to the Container uisng `sh`
+### Attach to the Container using `sh`
 
 **Command**
 
@@ -64,7 +64,7 @@ hostname
 381c2c925259
 ```
 
-### Disconect from the contianer
+### Disconnect from the container
 
 **Command**
 

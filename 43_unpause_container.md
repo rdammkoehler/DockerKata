@@ -18,7 +18,7 @@ The intent of this kata is to learn how to pause a running container. This kata 
 
 ## Overview
 
-In this exercise we will start a container, execute a command against the container, pause the container, execute another command against the container, list the running containers, kill the container, and then remove the container
+In this exercise, we will start a container, execute a command against the container, pause the container, execute another command against the container, list the running containers, kill the container, and then remove the container
 
 ## Kata Steps
 
@@ -68,7 +68,7 @@ docker pause $(docker ps -q)
 2848300c09f1
 ```
 
-### Execute a command aginst the Container
+### Execute a command against the Container
 
 **Command**
 

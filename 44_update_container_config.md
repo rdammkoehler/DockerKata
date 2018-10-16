@@ -16,7 +16,7 @@ The intent of this kata is to understand how to update a containers configuratio
 
 ## Overview
 
-In this exercise we will create a container, show the containers stats at runtime, modify its settings, then show the containers stats again. Finally, we will stop and remove the container.
+In this exercise, we will create a container, show the containers stats at runtime, modify its settings, then show the containers stats again. Finally, we will stop and remove the container.
 
 ## Kata Steps
 

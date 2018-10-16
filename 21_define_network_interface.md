@@ -25,7 +25,7 @@ The purpose of this kata is to familiarize yourself with the process of exposing
 
 ## Overview
 
-In this exercise we will create a Dockerfile and expose a network port in the definition. We will add a service to serve data from that port. We will then build the docker image and run it. Finally we will test that our network service is operating as expected. We will then stop the Container and remove the image from our repository.
+In this exercise, we will create a Dockerfile and expose a network port in the definition. We will add a service to serve data from that port. We will then build the docker image and run it. Finally we will test that our network service is operating as expected. We will then stop the Container and remove the image from our repository.
 
 ## Kata Steps
 

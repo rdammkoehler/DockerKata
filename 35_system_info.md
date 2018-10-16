@@ -6,11 +6,11 @@ Docker Documentation References:
 
 ## Intent
 
-The intent of this exercise is to familarize yourself with getting information about the current docker installation using `docker info`.
+The intent of this exercise is to familiarize yourself with getting information about the current docker installation using `docker info`.
 
 ## Overview
 
-In this exercise we will use `docker info` to get information about the current docker environment.
+In this exercise, we will use `docker info` to get information about the current docker environment.
 
 ## Kata Steps
 
@@ -67,6 +67,6 @@ Experimental: false
 Insecure Registries:
  127.0.0.0/8
 Live Restore Enabled: false
-```	
+```
 
 [Previous](34_image_history.md) | [Index](README.md) | [Next](36_kill_container.md)

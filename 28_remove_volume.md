@@ -16,7 +16,7 @@ The purpose of this kata is to familiarize yourself with the process of removing
 
 ## Overview
 
-In this exercise we will list all of the docker volumes that we presently have, then creat a another volume by running a container. We will then list the volumes to show the new volume. We will then delete the container(s) that use that volume, and then we will delete the new volume.
+In this exercise, we will list all of the docker volumes that we presently have, then create a another volume by running a container. We will then list the volumes to show the new volume. We will then delete the container(s) that use that volume, and then we will delete the new volume.
 
 ## Kata Steps
 

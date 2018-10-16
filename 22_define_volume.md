@@ -14,11 +14,11 @@ Docker Documentation References:
 
 ## Intent
 
-The purpose of this kata is to familiarize yourself with the process of creating a volume mount point in a docker image. 
+The purpose of this kata is to familiarize yourself with the process of creating a volume mount point in a docker image.
 
 ## Overview
 
-In this exercise we will create a docker image that writes to a host volume when it is run. The command simply dumps the output of the ps command into a file. When we run the image the container will mount a local volume to capture the output of the command. We will then remove the output, the container(s), the image, and the docker volume.
+In this exercise, we will create a docker image that writes to a host volume when it is run. The command simply dumps the output of the ps command into a file. When we run the image the container will mount a local volume to capture the output of the command. We will then remove the output, the container(s), the image, and the docker volume.
 
 ## Kata Steps
 

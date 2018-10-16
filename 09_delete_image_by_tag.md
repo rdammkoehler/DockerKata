@@ -8,11 +8,11 @@ Docker Documentation References:
 
 ## Intent
 
-The purpose of this kata is to familarize yourself with the process of deleting an image from your local docker registry using a tag to select a specific image.
+The purpose of this kata is to familiarize yourself with the process of deleting an image from your local docker registry using a tag to select a specific image.
 
 ## Overview
 
-In this exercies we will list the images on in the local registry and then delete one using a tag to identify the image.
+In this exercise, we will list the images on in the local registry and then delete one using a tag to identify the image.
 
 ## Kata Steps
 

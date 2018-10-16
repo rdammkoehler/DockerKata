@@ -20,9 +20,9 @@ Other Documentation References:
 
 The purpose of this kata is to familiarize yourself with the process of creating  the simplest possible image for running a python application.
 
-## Overivew
+## Overview
 
-In this exercise we will create a simple Python application and place it in a Docker Image. We will then run that image. When we are done we will remove the image and its associated containers. 
+In this exercise, we will create a simple Python application and place it in a Docker Image. We will then run that image. When we are done we will remove the image and its associated containers.
 
 ## Kata Steps
 
@@ -63,7 +63,7 @@ Hello World
 
 Use an editor to create a file name python_hello_world_Dockerfile, or copy the [python_hello_world_Dockerfile](python_hello_world_Dockerfile) from this repository.
 
-The file should contian the following
+The file should contain the following
 
 ```Dockerfile
 FROM python:alpine

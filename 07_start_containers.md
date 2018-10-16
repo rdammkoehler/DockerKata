@@ -8,11 +8,11 @@ Docker Documentation References:
 
 ## Intent
 
-The purpose of this kata is to familarize yourself with the process of running a container.
+The purpose of this kata is to familiarize yourself with the process of running a container.
 
 ## Overview
 
-In this exercise we will use an existing container and run it in the detached mode, we will then stop the container
+In this exercise, we will use an existing container and run it in the detached mode, we will then stop the container
 
 ## Kata Steps
 

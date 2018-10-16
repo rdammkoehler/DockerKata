@@ -1,4 +1,4 @@
-# Commiting Changes 
+# Committing Changes
 
 Docker Documentation References:
 
@@ -20,11 +20,11 @@ Docker Documentation References:
 
 ## Intent
 
-The purpose of this kata is to familiarize yourself with the process of creating a docker image by commiting changes to a container back to the image.
+The purpose of this kata is to familiarize yourself with the process of creating a docker image by committing changes to a container back to the image.
 
 ## Overview
 
-In this exercise we will start an existing container, commit that container to create a new image, list the images available, stop the current container, run the new image (created by the commit) to create a new container, inspect the state of that running container, stop the container, delete the new container and the new image.
+In this exercise, we will start an existing container, commit that container to create a new image, list the images available, stop the current container, run the new image (created by the commit) to create a new container, inspect the state of that running container, stop the container, delete the new container and the new image.
 
 ## Kata Steps
 
@@ -48,7 +48,7 @@ docker_katas_nginx
 **Command**
 
 ```bash
-docker commit --message 'added vim and simple.txt' docker_katas_nginx 
+docker commit --message 'added vim and simple.txt' docker_katas_nginx
 ```
 
 **Output**

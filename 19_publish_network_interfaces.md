@@ -10,7 +10,7 @@ The purpose of this kata is to familiarize yourself with the process of exposing
 
 ## Overview
 
-In this exercise we will run a simple [NGINX](http://nginx.org/) image and publish its network interface. 
+In this exercise, we will run a simple [NGINX](http://nginx.org/) image and publish its network interface.
 
 ## Kata Steps
 

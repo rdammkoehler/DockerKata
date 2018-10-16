@@ -1,6 +1,6 @@
 # List Docker Volumes
 
-Docker Documenation References:
+Docker Documentation References:
 
 [docker volume ls](https://docs.docker.com/engine/reference/commandline/volume_ls/)
 
@@ -11,11 +11,11 @@ Docker Documenation References:
 
 ## Intent
 
-The purpose of this kata is to familiarize yoruself with the process of listing all of the docker volumes on your system.
+The purpose of this kata is to familiarize yourself with the process of listing all of the docker volumes on your system.
 
 ## Overview
 
-In this exercise we will list all of the docker volumes that we presently have, then create another volume by running a container. We will then list the volumes again to show the new volume.
+In this exercise, we will list all of the docker volumes that we presently have, then create another volume by running a container. We will then list the volumes again to show the new volume.
 
 ## Kata Steps
 

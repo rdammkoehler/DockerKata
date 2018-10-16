@@ -12,13 +12,13 @@ Other documentation:
 
 ## Intent
 
-The purpose of this kata is to familiarize yourself with the process of removing all exited containers from your docker configuration. 
+The purpose of this kata is to familiarize yourself with the process of removing all exited containers from your docker configuration.
 
-> WARNING: This will delete those containers and you will need to recreate them. Do NOT execute this Kata against your local configuration unless you are willing to recreate all of your containers. 
+> WARNING: This will delete those containers and you will need to recreate them. Do NOT execute this Kata against your local configuration unless you are willing to recreate all of your containers.
 
 ## Overview
 
-In this exercise we will list all of the exited containers on our system, then we will delete them, and relist the exited containers. Note that this action is not recoverable, don't execute this kata unless your ok with loosing your containers.
+In this exercise, we will list all of the exited containers on our system, then we will delete them, and relist the exited containers. Note that this action is not recoverable, don't execute this kata unless your ok with loosing your containers.
 
 ## Kata Steps
 
@@ -42,7 +42,7 @@ thought:DockerKata rich$
 
 ### Delete all Exited Containers
 
-> WARNING: This will delete those containers and you will need to recreate them. Do NOT execute this Kata against your local configuration unless you are willing to recreate all of your containers. 
+> WARNING: This will delete those containers and you will need to recreate them. Do NOT execute this Kata against your local configuration unless you are willing to recreate all of your containers.
 
 **Command**
 
@@ -58,9 +58,9 @@ thought:DockerKata rich$ docker rm $(docker ps -a -f status=exited -q)
 5a8565827a32
 ```
 
-> WARNING: This will delete those containers and you will need to recreate them. Do NOT execute this Kata against your local configuration unless you are willing to recreate all of your containers. 
+> WARNING: This will delete those containers and you will need to recreate them. Do NOT execute this Kata against your local configuration unless you are willing to recreate all of your containers.
 
-### List all Exitied Containers
+### List all Exited Containers
 
 **Command**
 
