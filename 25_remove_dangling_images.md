@@ -17,7 +17,7 @@ The purpose of this kata is to familiarize yourself with the process of removing
 
 ## Overview
 
-In this exercise we will create a docker image with no tags, causing it to be dangling. We will then remove the dangling images from our local repository.
+In this exercise, we will create a docker image with no tags, causing it to be dangling. We will then remove the dangling images from our local repository.
 
 ## Kata Steps
 

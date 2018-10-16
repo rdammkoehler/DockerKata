@@ -57,7 +57,7 @@ The expectation is that you will use the Docker In Docker (aka *meta-docker*) ap
 44. [Update a Container Configuration](44_update_container_config.md)
 45. [Wait for a Container to Stop](45_wait_for_container.md)
 
-<!-- Upcomming content
+<!-- Upcoming content
 
 [Pushing Images]
 https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes

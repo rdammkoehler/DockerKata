@@ -18,11 +18,11 @@ Other References:
 
 ## Intent
 
-The purpose of this kata is to familarize yourself with the notion that the containers disk and states is independet of the image that created it.
+The purpose of this kata is to familiarize yourself with the notion that the containers disk and states is independent of the image that created it.
 
 ## Overview
 
-In this exercise we will start a container, install the `vim` editor, create a document, demonstrate that the document is saved on the containers disk, stop and restart the container, and demonstrate that the document is still saved on the disk. Finally we will stop the container again.
+In this exercise, we will start a container, install the `vim` editor, create a document, demonstrate that the document is saved on the containers disk, stop and restart the container, and demonstrate that the document is still saved on the disk. Finally we will stop the container again.
 
 ## Kata Steps
 
@@ -93,7 +93,7 @@ OK: 45 MiB in 31 packages
 docker exec -it docker_katas_nginx vim
 ```
 
-> Note: We will disucss the -it option on exec in a later step
+> Note: We will discuss the -it option on exec in a later step
 
 **Output**
 
@@ -101,7 +101,7 @@ docker exec -it docker_katas_nginx vim
 * Insert some text and save the file using `<ESC> :w simple.txt`
 * Then exit `vim` using `<ESC> :q`
 
-### List files on the container to see the document you created in the prevoius step
+### List files on the container to see the document you created in the previous step
 
 **Command**
 
@@ -148,7 +148,7 @@ thought:DockerKata rich$ docker start docker_katas_nginx
 docker_katas_nginx
 ```
 
-### List files on the container to see the document you created in the prevoius step
+### List files on the container to see the document you created in the previous step
 
 **Command**
 
@@ -165,7 +165,7 @@ dev         lib         proc        sbin        sys         var
 etc         media       root        simple.txt  tmp
 ```
 
-> Note: that your file persisted in the conainer between stops and starts, however the image used to create this container does not contain the changes (installation of vim and the simple.txt file), so additional containers created from that image will not have these things. In the next kata we will demonstrate how to create an image from a container.
+> Note: that your file persisted in the container between stops and starts, however the image used to create this container does not contain the changes (installation of vim and the simple.txt file), so additional containers created from that image will not have these things. In the next kata we will demonstrate how to create an image from a container.
 
 ### Stop the Container
 

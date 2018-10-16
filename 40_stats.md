@@ -16,7 +16,7 @@ The intent of this exercise is to understand how to get live streaming stats fro
 
 ## Overview
 
-In this exercise we will start a container and then ask the Docker Engine to display stats about that container. Then we will stop and remove the container.
+In this exercise, we will start a container and then ask the Docker Engine to display stats about that container. Then we will stop and remove the container.
 
 ## Kata Steps
 

@@ -1,4 +1,4 @@
-# Setting Environment Variabels
+# Setting Environment Variables
 
 Docker Documentation References:
 
@@ -18,7 +18,7 @@ The purpose of this kata is to familiarize yourself with the process of setting 
 
 ## Overview
 
-In this exercise we will create a simple Dockerfile and set an environment variable with will impact the output of the application. We will then delete the image.
+In this exercise, we will create a simple Dockerfile and set an environment variable with will impact the output of the application. We will then delete the image.
 
 ## Kata Steps
 

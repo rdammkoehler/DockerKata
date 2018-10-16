@@ -17,7 +17,7 @@ The intent of this kata is to learn how to inspect the network interface exposed
 
 ## Overview
 
-In this exercise we will start a container, list its network interface ports, and then stop and remove the container.
+In this exercise, we will start a container, list its network interface ports, and then stop and remove the container.
 
 ## Kata Steps
 

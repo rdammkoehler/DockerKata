@@ -14,11 +14,11 @@ Other documentation:
 
 The purpose of this kata is to familiarize yourself with the process of removing all images from your local docker repository.
 
-> WARNING: This will delete all of your images! Do NOT execute this Kata against your local configuration unless you are willing to recreate/pull all of your images. 
+> WARNING: This will delete all of your images! Do NOT execute this Kata against your local configuration unless you are willing to recreate/pull all of your images.
 
 ## Overview
 
-In this exercise we will list all of the images in our local repository, then we will delete them all, and finally we will show that we have no images in our local repository.
+In this exercise, we will list all of the images in our local repository, then we will delete them all, and finally we will show that we have no images in our local repository.
 
 ## Kata Steps
 
@@ -42,7 +42,7 @@ alpine                                       3.6                 a41a7446062d   
 
 ### Delete All Images
 
-> WARNING: This will delete all of your images! Do NOT execute this Kata against your local configuration unless you are willing to recreate/pull all of your images. 
+> WARNING: This will delete all of your images! Do NOT execute this Kata against your local configuration unless you are willing to recreate/pull all of your images.
 
 **Command**
 
@@ -50,7 +50,7 @@ alpine                                       3.6                 a41a7446062d   
 docker rmi --force $(docker images --all --quiet)
 ```
 
-> WARNING: This will delete all of your images! Do NOT execute this Kata against your local configuration unless you are willing to recreate/pull all of your images. 
+> WARNING: This will delete all of your images! Do NOT execute this Kata against your local configuration unless you are willing to recreate/pull all of your images.
 
 **Output**
 

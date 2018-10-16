@@ -14,11 +14,11 @@ Docker Documentation References:
 
 ## Intent
 
-The purpose of this kata is to familiarse yourself with the process of restarting a container. 
+The purpose of this kata is to familiarize yourself with the process of restarting a container.
 
 ## Overview
 
-In this exercise we will create a container, list the running containers, then restart the container, then list the running containers, then we will stop the container and delete it.
+In this exercise, we will create a container, list the running containers, then restart the container, then list the running containers, then we will stop the container and delete it.
 
 ## Kata Steps
 
@@ -37,7 +37,7 @@ docker run -p 80:80 -d nginx:alpine
 cd36553fe412a72ccce129e778a1fe445ff24cbf277573060b22942929203158
 ```
 
-### List the running contianers
+### List the running containers
 
 **Command**
 

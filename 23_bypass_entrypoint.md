@@ -18,7 +18,7 @@ The purpose of this kata is to familiarize yourself with the process of running 
 
 ## Overview
 
-In this exercise we will create a docker image that has an entrypoint that runs `ls`, we will then run the image and bypass the `ENTRYPOINT` of the Dockerfile so we can run `sh`. We will then exit the container and delete the image.
+In this exercise, we will create a docker image that has an entrypoint that runs `ls`, we will then run the image and bypass the `ENTRYPOINT` of the Dockerfile so we can run `sh`. We will then exit the container and delete the image.
 
 ## Kata Steps
 

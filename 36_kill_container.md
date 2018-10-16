@@ -14,15 +14,15 @@ Docker Documentation References:
 
 ## Intent
 
-The intent of this exersice is to understand how to kill a running container. This is different from stopping it.
+The intent of this exercise is to understand how to kill a running container. This is different from stopping it.
 
 ## Overview
 
-In this exercise will will start a container in detached mode. We will then kill that container. Then we will remove the container.
+In this exercise, will will start a container in detached mode. We will then kill that container. Then we will remove the container.
 
 ## Kata Steps
 
-### Start a Contanier
+### Start a Container
 **Command**
 
 ```bash

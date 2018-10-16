@@ -16,7 +16,7 @@ The purpose of this kata is to familiarize yourself with the process of pushing 
 
 ## Overview
 
-In this exercise we will login, tag, push an image to the Docker Hub repository, and then list out images. 
+In this exercise, we will login, tag, push an image to the Docker Hub repository, and then list out images.
 
 > Please note that the image you push here cannot be deleted via the CLI from the remote repository, you will need to use the tools provided by the repository to remove the image. Also note, [Azure's Container Registry](https://azure.microsoft.com/en-us/services/container-registry/) does not support delete, so if you push an image there you are stuck with it.
 

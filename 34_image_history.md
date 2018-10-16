@@ -10,7 +10,7 @@ The intent of this exercise it to familiarize yourself with how to get the histo
 
 ## Overview
 
-In this exercise we will get the history of the `nginx:alpine` image.
+In this exercise, we will get the history of the `nginx:alpine` image.
 
 ## Kata Steps
 

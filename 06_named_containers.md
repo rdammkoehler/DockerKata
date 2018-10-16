@@ -1,6 +1,6 @@
 # Named Containers
 
-Docker Documenation References:
+Docker Documentation References:
 
 [docker create](https://docs.docker.com/engine/reference/commandline/create/)
 
@@ -10,11 +10,11 @@ Docker Documenation References:
 
 ## Intent
 
-The purpose of this kata is to familarize yourself with the process of creating a container with a specific name.
+The purpose of this kata is to familiarize yourself with the process of creating a container with a specific name.
 
 ## Overview
 
-In this exercise we will pull and image and create a container with a specific name using that image.
+In this exercise, we will pull and image and create a container with a specific name using that image.
 
 ## Kata Steps
 

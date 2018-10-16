@@ -10,7 +10,7 @@ The purpose of this kata is to familiarize yourself with the process of executin
 
 ## Overview
 
-In this exeercise we will start a container and execute the `ps` command on the running container and then stop the container.
+In this exercise, we will start a container and execute the `ps` command on the running container and then stop the container.
 
 ## Kata Steps
 

@@ -14,7 +14,7 @@ The intent of this exercise is to familiarize yourself with creating a container
 
 ## Overview
 
-In this exercise will will create a conainer with a name, but we will not start that container. We will show it in the list of containers. Then we will remove it.
+In this exercise, will will create a container with a name, but we will not start that container. We will show it in the list of containers. Then we will remove it.
 
 ## Kata Steps
 

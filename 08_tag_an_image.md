@@ -10,11 +10,11 @@ Docker Documentation References:
 
 ## Intent
 
-The purpose of this kata is to familarize yourself with the process of tagging an image.
+The purpose of this kata is to familiarize yourself with the process of tagging an image.
 
 ## Overview
 
-In this exercise we will pull and image for the NGINX Web Server and add a custom tag.
+In this exercise, we will pull and image for the NGINX Web Server and add a custom tag.
 
 ## Kata Steps
 

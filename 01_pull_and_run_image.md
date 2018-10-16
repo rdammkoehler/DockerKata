@@ -8,11 +8,11 @@ Docker Documentation References:
 
 ## Intent
 
-The purpose of this kata is to familarize yourself with the process of pulling an image from a repository and running it.
+The purpose of this kata is to familiarize yourself with the process of pulling an image from a repository and running it.
 
 ## Overview
 
-In this exercise we will pull an image for the NGINX Web Server and run it using only defaults. Later we will use this image to demostrate other features of docker.
+In this exercise, we will pull an image for the NGINX Web Server and run it using only defaults. Later we will use this image to demonstrate other features of docker.
 
 ## Kata Steps
 
@@ -61,7 +61,7 @@ open http://localhost:8080
 
 Or [click here](http://localhost:8080)
 
-> Note: This works because your *meta-docker* container has exposed port 80 on localhost port 8080. If you are executing this kata outside of the *meta-docker* contianer use port 80 only.
+> Note: This works because your *meta-docker* container has exposed port 80 on localhost port 8080. If you are executing this kata outside of the *meta-docker* container use port 80 only.
 
 **Output**
 

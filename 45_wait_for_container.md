@@ -16,7 +16,7 @@ The intent of this kata is to learn how to wait for a container to shutdown thro
 
 ## Overview
 
-In this exercise we will create a container, then execute a shutdown command that waits for the container to stop. We will then remove the continer.
+In this exercise, we will create a container, then execute a shutdown command that waits for the container to stop. We will then remove the container.
 
 ## Kata Steps
 
@@ -68,7 +68,7 @@ docker stop $(docker ps -q)
 the container exited
 ```
 
-> Did you notice the output? We see the normal hash back from the stop command followed by the output of the wait command (zero) which is the status of the contiainer, and that is followed by the string 'the container exited' from our call above.
+> Did you notice the output? We see the normal hash back from the stop command followed by the output of the wait command (zero) which is the status of the container, and that is followed by the string 'the container exited' from our call above.
 
 ### Remove the Container
 
@@ -87,6 +87,6 @@ docker rm $(docker ps -aq)
 ```
 
 > Note that the operating system also prints out the status of the background job at the end here. That is just the nature of a linux shell.
-> 
+>
 
 [Previous](44_update_container_config.md) | [Index](README.md) | [Next](#)

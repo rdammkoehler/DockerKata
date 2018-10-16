@@ -10,7 +10,7 @@ The purpose of this kata is to familiarize yourself with the process of executin
 
 ## Overview
 
-In this exerciese we will start a container and open an interactive shell where we can execute arbitrary commands against the running container. We will then stop the container.
+In this exercise, we will start a container and open an interactive shell where we can execute arbitrary commands against the running container. We will then stop the container.
 
 ## Kata Steps
 

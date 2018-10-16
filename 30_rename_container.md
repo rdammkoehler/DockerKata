@@ -14,11 +14,11 @@ Docker Documentation References:
 
 ## Intent
 
-The purpose of this kata is to familiarize yourself with the process of renaming an existing container. 
+The purpose of this kata is to familiarize yourself with the process of renaming an existing container.
 
 ## Overview
 
-In this exercise we will create a container and then rename it, using `docker ps -a` to show the changes. We will then delete the container.
+In this exercise, we will create a container and then rename it, using `docker ps -a` to show the changes. We will then delete the container.
 
 ## Kata Steps
 
