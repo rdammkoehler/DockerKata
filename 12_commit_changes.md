@@ -75,7 +75,7 @@ REPOSITORY                                   TAG                 IMAGE ID       
 nginx                                        alpine              f00ab1b3ac6d        2 weeks ago         15.5 MB
 ```
 
-> Note: The image with REPOSITORY <none> and TAG <none> is the image just created.
+> Note: The image with REPOSITORY `<none>` and TAG `<none>` is the image just created.
 
 ### Stop the current container
 
